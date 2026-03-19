@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+
+
+
+
+   <question type="multichoice">
+    <name>
+      <text>Question 2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[2. La fille cadette a reçu un don. De sa bouche sortent…
+]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[
+Correct Answers: 
+]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+
+    <answer fraction="100">
+      <text><![CDATA[des pierres précieuses et des fleurs.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Correct!
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is des pierres précieuses et des fleurs.
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[des serpents et des crapauds.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is des pierres précieuses et des fleurs.
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[des diamants et des vipères.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is des pierres précieuses et des fleurs.
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[des friandises et des perles.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is des pierres précieuses et des fleurs.
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is des pierres précieuses et des fleurs.
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is des pierres précieuses et des fleurs.
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is des pierres précieuses et des fleurs.
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is des pierres précieuses et des fleurs.
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is des pierres précieuses et des fleurs.
+]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+
+
+
+   <question type="multichoice">
+    <name>
+      <text>Question 1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[1. Choisir le résumé correspondant le mieux au texte lu.
+]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[
+Correct Answers: 
+]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[Deux sœurs font la rencontre d’une fée. La cadette, s’étant montrée serviable avec elle, reçoit un don : à chaque parole, des grenouilles et des insectes lui sortent de la bouche. L’ainée, malhonnête et méchante, reçoit celui de cracher des fleurs et des friandises.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is Deux sœurs font la rencontre d’une fée dans la forêt. La cadette, s’étant montrée honnête avec elle, reçoit le don qu’à chaque parole, des fleurs ou des pierres précieuses lui sortent de la bouche. L’ainée, orgueilleuse et peu obligeante, reçoit celui de cracher des serpents ou des crapauds.
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is Deux sœurs font la rencontre d’une fée dans la forêt. La cadette, s’étant montrée honnête avec elle, reçoit le don qu’à chaque parole, des fleurs ou des pierres précieuses lui sortent de la bouche. L’ainée, orgueilleuse et peu obligeante, reçoit celui de cracher des serpents ou des crapauds.
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[Trois sœurs se rendent à la fontaine près de leur logis pour y recevoir un don de la part d’une fée déguisée en vieille femme. La plus jeune des sœurs, récompensée par la fée pour son honnêteté, voit sortir de sa bouche des perles et des diamants.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is Deux sœurs font la rencontre d’une fée dans la forêt. La cadette, s’étant montrée honnête avec elle, reçoit le don qu’à chaque parole, des fleurs ou des pierres précieuses lui sortent de la bouche. L’ainée, orgueilleuse et peu obligeante, reçoit celui de cracher des serpents ou des crapauds.
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[Deux sœurs font la rencontre d’une fée dans la forêt. La cadette, s’étant montrée honnête avec elle, reçoit le don qu’à chaque parole, des fleurs ou des pierres précieuses lui sortent de la bouche. L’ainée, orgueilleuse et peu obligeante, reçoit celui de cracher des serpents ou des crapauds.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Correct!
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[Une veuve et ses deux filles se rendent à la fontaine. En chemin, elles rencontrent une vieille femme portant un collier de perles, qui leur demande à boire. Les trois femmes refusent et se voient punies par la vieille qui n’était autre qu’une sorcière.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is Deux sœurs font la rencontre d’une fée dans la forêt. La cadette, s’étant montrée honnête avec elle, reçoit le don qu’à chaque parole, des fleurs ou des pierres précieuses lui sortent de la bouche. L’ainée, orgueilleuse et peu obligeante, reçoit celui de cracher des serpents ou des crapauds.
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is Deux sœurs font la rencontre d’une fée dans la forêt. La cadette, s’étant montrée honnête avec elle, reçoit le don qu’à chaque parole, des fleurs ou des pierres précieuses lui sortent de la bouche. L’ainée, orgueilleuse et peu obligeante, reçoit celui de cracher des serpents ou des crapauds.
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is Deux sœurs font la rencontre d’une fée dans la forêt. La cadette, s’étant montrée honnête avec elle, reçoit le don qu’à chaque parole, des fleurs ou des pierres précieuses lui sortent de la bouche. L’ainée, orgueilleuse et peu obligeante, reçoit celui de cracher des serpents ou des crapauds.
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is Deux sœurs font la rencontre d’une fée dans la forêt. La cadette, s’étant montrée honnête avec elle, reçoit le don qu’à chaque parole, des fleurs ou des pierres précieuses lui sortent de la bouche. L’ainée, orgueilleuse et peu obligeante, reçoit celui de cracher des serpents ou des crapauds.
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is Deux sœurs font la rencontre d’une fée dans la forêt. La cadette, s’étant montrée honnête avec elle, reçoit le don qu’à chaque parole, des fleurs ou des pierres précieuses lui sortent de la bouche. L’ainée, orgueilleuse et peu obligeante, reçoit celui de cracher des serpents ou des crapauds.
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is Deux sœurs font la rencontre d’une fée dans la forêt. La cadette, s’étant montrée honnête avec elle, reçoit le don qu’à chaque parole, des fleurs ou des pierres précieuses lui sortent de la bouche. L’ainée, orgueilleuse et peu obligeante, reçoit celui de cracher des serpents ou des crapauds.
+]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

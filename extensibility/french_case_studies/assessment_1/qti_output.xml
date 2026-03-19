@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<qti-assessment-test xmlns="http://www.imsglobal.org/xsd/imsqti_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_v3p0.xsd" identifier="TEST_0001" title="Comprendre un texte - Classe de Sixième">
+  <qti-test-part identifier="testPart-1" navigationMode="nonlinear" submissionMode="individual">
+    <qti-assessment-section identifier="section-1" title="Compréhension de l'écrit - Texte littéraire" visible="true">
+      <qti-assessment-item identifier="QUE_0001" title="Question 1" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_0001_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_0001_A3</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>1. Choisir le résumé correspondant le mieux au texte lu.</p>
+          <qti-choice-interaction responseIdentifier="QUE_0001_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_0001_A1">
+              <p>Deux sœurs font la rencontre d’une fée. La cadette, s’étant montrée serviable avec elle, reçoit un don : à chaque parole, des grenouilles et des insectes lui sortent de la bouche. L’ainée, malhonnête et méchante, reçoit celui de cracher des fleurs et des friandises.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_0001_A2">
+              <p>Trois sœurs se rendent à la fontaine près de leur logis pour y recevoir un don de la part d’une fée déguisée en vieille femme. La plus jeune des sœurs, récompensée par la fée pour son honnêteté, voit sortir de sa bouche des perles et des diamants.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_0001_A3">
+              <p>Deux sœurs font la rencontre d’une fée dans la forêt. La cadette, s’étant montrée honnête avec elle, reçoit le don qu’à chaque parole, des fleurs ou des pierres précieuses lui sortent de la bouche. L’ainée, orgueilleuse et peu obligeante, reçoit celui de cracher des serpents ou des crapauds.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_0001_A4">
+              <p>Une veuve et ses deux filles se rendent à la fontaine. En chemin, elles rencontrent une vieille femme portant un collier de perles, qui leur demande à boire. Les trois femmes refusent et se voient punies par la vieille qui n’était autre qu’une sorcière.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_0001_A5">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_0001_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_0001_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_0001_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_0001_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_0001_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_0001_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;Le bon résumé est celui où la cadette reçoit le don de faire sortir de sa bouche des fleurs ou des pierres précieuses, tandis que l’aînée crache des serpents ou des crapauds.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_0002" title="Question 2" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_0002_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_0002_A1</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>2. La fille cadette a reçu un don. De sa bouche sortent…</p>
+          <qti-choice-interaction responseIdentifier="QUE_0002_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_0002_A1">
+              <p>des pierres précieuses et des fleurs.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_0002_A2">
+              <p>des serpents et des crapauds.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_0002_A3">
+              <p>des diamants et des vipères.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_0002_A4">
+              <p>des friandises et des perles.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_0002_A5">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_0002_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_0002_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_0002_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_0002_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_0002_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_0002_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;La fille cadette voit sortir de sa bouche des fleurs et des pierres précieuses.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+    </qti-assessment-section>
+  </qti-test-part>
+</qti-assessment-test>

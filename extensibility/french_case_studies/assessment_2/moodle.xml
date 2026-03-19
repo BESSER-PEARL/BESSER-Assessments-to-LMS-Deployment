@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+
+
+
+
+   <question type="multichoice">
+    <name>
+      <text>Famille de mots 4</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[4. Les mots suivants font partie de la même famille, sauf un. Trouver l’intrus.
+]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[
+Correct Answers: 
+]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[marée]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is mérite
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[mérite]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Correct!
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[mer]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is mérite
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[maritime]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is mérite
+]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+
+
+
+   <question type="multichoice">
+    <name>
+      <text>Famille de mots 8</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[8. Les mots suivants font partie de la même famille, sauf un. Trouver l’intrus.
+]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[
+Correct Answers: 
+]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+
+    <answer fraction="100">
+      <text><![CDATA[décentrer]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Correct!
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[centenaire]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is décentrer
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[centième]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is décentrer
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[pourcentage]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is décentrer
+]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+
+
+
+   <question type="multichoice">
+    <name>
+      <text>Famille de mots 6</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[6. Ces mots sont tous formés à partir du verbe « laver » sauf un. Trouver l’intrus.
+]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[
+Correct Answers: 
+]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[lavabo]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is esclave
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[esclave]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Correct!
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[délavé]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is esclave
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[lavement]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is esclave
+]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+
+
+
+   <question type="multichoice">
+    <name>
+      <text>Famille de mots 7</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[7. Voici des mots de même famille. Trouver l’intrus.
+]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[
+Correct Answers: 
+]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[alunir]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is allumer
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[lunaire]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is allumer
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[lune]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is allumer
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[allumer]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Correct!
+]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+
+
+
+   <question type="multichoice">
+    <name>
+      <text>Famille de mots 5</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[5. Les mots suivants font partie de la même famille, sauf un. Trouver l’intrus.
+]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[
+Correct Answers: 
+]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[compagnie]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is campagnard
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="100">
+      <text><![CDATA[campagnard]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Correct!
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[accompagnement]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is campagnard
+]]></text>
+      </feedback>
+    </answer>
+
+    <answer fraction="0">
+      <text><![CDATA[accompagner]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+Incorrect. The correct answer is campagnard
+]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>
