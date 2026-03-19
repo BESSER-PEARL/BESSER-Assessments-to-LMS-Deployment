@@ -1,0 +1,255 @@
+
+class ShowHideEnum(Enum):
+Represents the visibility state for conditional content in QTI 3.0, including the following types:
+- Show
+- Hide
+
+
+class NavigationModeEnum(Enum):
+Defines how candidates may navigate through an assessment in QTI 3.0, including the following types:
+- Linear
+- Nonlinear
+
+
+
+class SubmissionModeEnum(Enum):
+Specifies when candidate responses are submitted during delivery in QTI 3.0, including the following types:
+
+- Individual: Each item is submitted separately as the candidate progresses.
+- Simultaneous: All items are submitted together at the end of the test or section.
+
+
+class UseEnum(Enum):
+Indicates the intended usage context of QTI 3.0 content or resources, including the following types:
+- Instructions
+- Scoring
+- Navigation
+
+
+# ViewEnum
+class ViewEnum(Enum):
+Defines the user perspective under which QTI 3.0 content is intended to be viewed, including the following types:
+- Author
+- Candidate
+- Proctor
+- Scorer
+- TestConstructor
+- Tutor
+
+
+class Identifiable():
+Abstract base class for QTI components requiring unique identification.
+Attributes:
+        identifier (str): Uniquely identifies the QTI element.
+        title (str): Human-readable descriptive label.
+        className (str): Logical or visual classification (optional).
+        dataExtension (str): Custom metadata for tool-specific processing (optional).
+
+
+class ResponseProcessing():
+Represents the response evaluation logic in a QTI 3.0 assessment.
+
+
+class DefaultValue():
+    Represents the default initialization value for an outcome variable
+    in the QTI metamodel.
+    A DefaultValue provides an initial assigned value before any response
+    processing is performed. It may contain one or more Value elements
+    depending on the outcome’s cardinality. Optionally, an interpretation
+    string can be provided to clarify semantic meaning or usage context
+    (e.g., indicating how the value should be understood by tools or processors).
+
+
+class OutcomeDeclaration():
+Declares an outcome variable used in the QTI metamodel to store computed results such as scores, pass/fail status, or other assessment outcomes.
+Attributes:
+        - identifier: the unique name of the outcome (e.g., SCORE)
+        - cardinality: whether the outcome stores a single value, multiple values, etc.
+        - base_type: the underlying data type (integer, float, string, boolean, etc.)
+        - default_value: an optional initial value assigned before response processing
+
+
+class Value():
+Represents a single literal value used in QTI declarations.
+Attributes:
+  value: str: The literal value represented by this element.
+
+
+
+class Entry():
+    Declares a mapping entry for QTI scoring and response evaluation.
+
+    Attributes:
+        key (str): The expected candidate response value.
+        value (str): The resulting mapped value (usually numeric).
+        case_sensitive (bool): Whether the key must match text exactly.
+
+
+class Mapping():
+    Represents a mapping rule used in QTI to convert candidate response values
+    into numerical scores or other outcome values.
+    Attributes:
+        - default_value: the score assigned when no entry matches
+        - entries: a set of Entry mappings that translate specific response keys
+                   to numeric or textual values
+
+
+
+class CorrectResponse():
+    Represents the correct or expected response values for a learner's answer
+    in the QTI metamodel.
+
+    CorrectResponse may contain:
+        - one or more correct Value elements (values: set[Value])
+        - an optional interpretation string to provide semantic meaning
+          (interpretation: str= None)
+
+
+class ResponseDeclaration():
+    Declares the structure, expected response format, and correct answer
+    for a learner’s submitted response in the QTI metamodel.
+
+    Attributes:
+        - identifier: the name of the response variable (e.g., RESPONSE)
+        - cardinality: whether the response contains one value, multiple, etc.
+        - base_type: the primitive type (identifier, string, integer, float, etc.)
+        - correct_response: the expected correct values (optional)
+        - mapping: optional scoring rules to convert responses to numeric values
+
+
+
+class RubricBlock():
+    Represents rubric or instructional content in the QTI metamodel.
+
+    A RubricBlock contains descriptive or explanatory text intended to guide
+    learners, authors, scorers, or proctors. This content is not part of the
+    scoring logic and is not evaluated as a response. Rubric blocks may appear
+    before, during, or after an item depending on their intended use.
+    Attributes:
+        use (UseEnum): Indicates the intended timing or purpose of the rubric.
+        view (ViewEnum): Indicates the audience allowed to view the rubric.
+
+
+
+Class Choice:
+Represents a selectable option in a ChoiceInteraction.
+- identifier (str): Unique ID for the choice.
+- text (str): Display text of the choice.
+
+
+
+
+class ParagraphBlock:
+    Represents a paragraph of text used in the content body of a QTI item.
+
+    A ParagraphBlock may contain:
+        - plain text
+        - one or more BlockQuote elements
+        - inline elements such as TextEntryInteraction fields
+
+
+Class Prompt:
+Represents a grouping of content blocks for a question prompt.
+- text (str, optional): Main textual content of the prompt.
+- paragraph_blocks (set[ParagraphBlock], optional): Collection of paragraph blocks included in the prompt.
+
+
+Class ChoiceInteraction:
+Represents a multiple-choice or multi-select question interaction.
+- max_choices (int): Maximum number of selectable choices.
+- min_choices (int): Minimum number of selectable choices.
+- choices (set[Choice]): Collection of choices for this interaction.
+- prompts (set[Prompt], optional): Associated prompt blocks providing context.
+
+
+Class TextEntryInteraction:
+Represents a fill-in-the-blank question interaction.
+- response_identifier (str): Unique identifier for the response.
+
+
+Class BlockQuote:
+Represents a block of quoted content.
+- paragraphs (set[ParagraphBlock]): Paragraphs included in the blockquote.
+
+
+
+Class ExtendedTextInteraction:
+Represents a long-form text input (e.g., essay).
+- response_identifier (str): Unique identifier for the response.
+- prompts (set[Prompt], optional): Associated prompt blocks providing context.
+
+
+Class BlockGroup:
+Represents a logical grouping of content blocks within a question.
+- choice_interaction (ChoiceInteraction): Choice-based interaction within the group.
+- paragraph_blocks (set[ParagraphBlock]): Collection of paragraphs in this group.
+- extended_text_interaction (Optional[ExtendedTextInteraction]): Extended text input associated with this group.
+
+
+Class QuestionBodySelect:
+Represents a selectable content group within a question body.
+- blockGroup (BlockGroup): Group of content blocks displayed in the question.
+- rubricBlock (RubricBlock): Associated rubric content.
+
+
+Class ModalFeedback(Identifiable):
+Represents feedback that can be shown or hidden during assessment.
+- show_hide (ShowHideEnum): Mode controlling visibility.
+- outcomeIdentifier (str): Identifier linking feedback to a specific outcome.
+- paragraphs (set[ParagraphBlock], optional): Content paragraphs for the feedback.
+
+Class QuestionBody(Identifiable):
+Represents the body content of a question.
+- bodySelects (set[QuestionBodySelect]): Selectable content blocks included in the body.
+- label (str): Display label for the question body.
+- language (str): Language code of the content.
+- dir (str): Text direction ("ltr" or "rtl").
+- dataCatalogIdref (str): Optional reference to external metadata or content catalog.
+
+
+
+
+class Question(Identifiable):
+    Represents the body of a question in the QTI metamodel, including content, prompts, and selectable components.
+
+    The QuestionBody encapsulates textual and structural content, language and direction,
+    and optional metadata references. It may contain multiple QuestionBodySelect elements
+    and associated rubric or guidance content.
+    Attributes:
+        bodySelects (set[QuestionBodySelect]): Selectable content blocks of the body.
+        label (str): Display label or name.
+        language (str): Language of content.
+        dir (str): Text direction.
+        dataCatalogIdref (str): External data catalog reference.
+
+
+Class SectionPart:
+Represents a subsection of a test part.
+- question (Question): Associated question.
+- parts (set[SectionPart], optional): Nested subsections.
+
+
+Class TestSection()Identifiable:
+Represents a mid-level container of questions or subsections.
+Attributes:
+        questions (set[Question]): Questions in the section.
+        required (bool): Indicates mandatory section status.
+        fixed (bool): Indicates fixed order of items.
+        visible (bool): Section visibility.
+        keepTogether (bool): Whether section is delivered atomically.
+        parts (Set[TestSection]): Nested subsections.
+
+
+Class TestPart(Identifiable):
+Represents a high-level division of a test.
+Attributes:
+        sections (set[TestSection]): Sections contained in this part.
+        navigationMode (NavigationModeEnum): Navigation mode for test execution.
+        submissionMode (SubmissionModeEnum): Response submission behavior.
+
+Class TestDefinition:
+Represents a complete QTI assessment test.
+Attributes:
+        parts (set[TestPart]): Test parts composing the test.
+        toolName (str): Tool used to create the test.
+        toolVersion (str): Version of the tool.

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<qti-assessment-item xmlns="http://www.imsglobal.org/xsd/imsqti_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_v3p0.xsd" identifier="QUE_1017" title="632805" adaptive="false" timeDependent="false">
+  <qti-response-declaration identifier="QUE_1018_RL" cardinality="single" baseType="identifier"/>
+  <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+    <qti-default-value>
+      <qti-value>0</qti-value>
+    </qti-default-value>
+  </qti-outcome-declaration>
+  <qti-item-body>
+    <p>Which data structure used to implement Set yields the worst performance for Set.contains?</p>
+    <qti-choice-interaction responseIdentifier="QUE_1018_RL">
+      <qti-simple-choice identifier="QUE_1019_A1">
+        <p>Binary search tree</p>
+      </qti-simple-choice>
+      <qti-simple-choice identifier="QUE_1020_A2">
+        <p>Linked list</p>
+      </qti-simple-choice>
+      <qti-simple-choice identifier="QUE_1021_A3">
+        <p>Sorted array</p>
+      </qti-simple-choice>
+      <qti-simple-choice identifier="QUE_1022_A4">
+        <p>Hashtable</p>
+      </qti-simple-choice>
+      <qti-simple-choice identifier="QUE_1023_A6">"</qti-simple-choice>
+      <qti-simple-choice identifier="QUE_1024_A7">"</qti-simple-choice>
+      <qti-simple-choice identifier="QUE_1025_A8">"</qti-simple-choice>
+      <qti-simple-choice identifier="QUE_1026_A9">"</qti-simple-choice>
+      <qti-simple-choice identifier="QUE_1027_A10">"</qti-simple-choice>
+    </qti-choice-interaction>
+  </qti-item-body>
+  <qti-modal-feedback identifier="QUE_1016_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+    <p>&lt;p&gt;Implementing Set.contains involves a search of the data structure. A binary search tree and a sorted array are searched in O(lg n) time, and a hashtable in O(1), assuming a sane hash function. A linked list is searched in O(n) time.&lt;/p&gt;</p>
+  </qti-modal-feedback>
+</qti-assessment-item>

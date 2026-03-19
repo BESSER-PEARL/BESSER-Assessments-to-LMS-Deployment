@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<qti-assessment-item xmlns="http://www.imsglobal.org/xsd/imsqti_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_v3p0.xsd" identifier="QUE_1004" title="633573" adaptive="false" timeDependent="false">
+  <qti-response-declaration identifier="QUE_1005_RL" cardinality="single" baseType="identifier"/>
+  <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+    <qti-default-value>
+      <qti-value>0</qti-value>
+    </qti-default-value>
+  </qti-outcome-declaration>
+  <qti-item-body>
+    <p>Suppose you try to perform a binary search on a 5-element array sorted in the reverse order of what the binary search algorithm expects. How many of the items in this array will be found if they are searched for?</p>
+    <qti-choice-interaction responseIdentifier="QUE_1005_RL">
+      <qti-simple-choice identifier="QUE_1006_A1">
+        <p>5</p>
+      </qti-simple-choice>
+      <qti-simple-choice identifier="QUE_1007_A2">
+        <p>0</p>
+      </qti-simple-choice>
+      <qti-simple-choice identifier="QUE_1008_A3">
+        <p>1</p>
+      </qti-simple-choice>
+      <qti-simple-choice identifier="QUE_1009_A4">
+        <p>2</p>
+      </qti-simple-choice>
+      <qti-simple-choice identifier="QUE_1010_A5">
+        <p>3</p>
+      </qti-simple-choice>
+      <qti-simple-choice identifier="QUE_1011_A6">"</qti-simple-choice>
+      <qti-simple-choice identifier="QUE_1012_A7">"</qti-simple-choice>
+      <qti-simple-choice identifier="QUE_1013_A8">"</qti-simple-choice>
+      <qti-simple-choice identifier="QUE_1014_A9">"</qti-simple-choice>
+      <qti-simple-choice identifier="QUE_1015_A10">"</qti-simple-choice>
+    </qti-choice-interaction>
+  </qti-item-body>
+  <qti-modal-feedback identifier="QUE_1003_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+    <p>&lt;p&gt;Only the middle element will be found. The remaining elements will not be contained in the subranges that we narrow our search to.&lt;/p&gt;</p>
+  </qti-modal-feedback>
+</qti-assessment-item>
