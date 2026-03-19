@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>634154</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[If you did not have a base case in a recursive function in C, and were working on a modern Unix-based system, what would most likely happen?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>It really depends on the program for whether it would be B or C. Both can be argued to be correct.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[Segmentation fault]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is C wouldnt complain, but your computer would crash
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Stack overflow error]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is C wouldnt complain, but your computer would crash
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[C wouldnt complain, but your computer would crash]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Nothing, thats fine]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is C wouldnt complain, but your computer would crash
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is C wouldnt complain, but your computer would crash
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is C wouldnt complain, but your computer would crash
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is C wouldnt complain, but your computer would crash
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is C wouldnt complain, but your computer would crash
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is C wouldnt complain, but your computer would crash
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>634156</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[What design stategy does Quicksort use?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Quicksort is divide and conquer.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[Greedy]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Divide and conquer
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[Divide and conquer]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Dynamic programming]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Divide and conquer
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Brute force]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Divide and conquer
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Divide and conquer
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Divide and conquer
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Divide and conquer
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Divide and conquer
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Divide and conquer
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>633227</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[What is printed when the following program runs? public class Main { public static boolean getTrue() { System.out.print("T"); return true; } public static boolean getFalse() { System.out.print("F"); return false; } public static void main(String[] args) { getTrue() || getTrue(); } }
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>If the first operand for || is true, as is the case here, the second is not evaluated.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[TT]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is T
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[T]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[F]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is T
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[TF]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is T
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Nothing is printed.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is T
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is T
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is T
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is T
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is T
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is T
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+</quiz>

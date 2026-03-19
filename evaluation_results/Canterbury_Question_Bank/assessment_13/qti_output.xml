@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<qti-assessment-test xmlns="http://www.imsglobal.org/xsd/imsqti_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_v3p0.xsd" identifier="output" title="output">
+  <qti-test-part identifier="testPart-1" navigationMode="nonlinear" submissionMode="individual">
+    <qti-assessment-section identifier="section-1" title="Converted Items" visible="true">
+      <qti-assessment-item identifier="QUE_629645" title="629645" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_629645_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_629645_A2</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Suppose you are writing a Java program to be used to manage information about the inventory in a store. The store’s products include pagers, cell phones, and cameras. The cell phones are used for both communication and taking pictures, the pagers are only used for communication, and the cameras are used for taking pictures. Assume that a Product class has been defined. Which of the following is the best way to represent the remaining data?</p>
+          <qti-choice-interaction responseIdentifier="QUE_629645_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_629645_A1">
+              <p>Define two subclasses of the Product class: Communicator and PictureTaker. Define two subclasses of the Communicator class: Pager and CellPhone; and define two subclasses of the PictureTaker class: CellPhone and Camera.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629645_A2">
+              <p>Define three subclasses of the Product class: Pager, CellPhone and Camera. Also define two interfaces: Communicator and PictureTaker. Define the Pager and CellPhone classes to implement the Communicator interface, and define the CellPhone and Camera classes to implement the PictureTaker interface.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629645_A3">
+              <p>Define five new classes, not related to the Product class: Pager, CellPhone, Camera, Communicator, and PictureTaker.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629645_A4">
+              <p>Define five subclasses of the Product class: Pager, CellPhone, Camera, Communicator, and PictureTaker.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629645_A5">
+              <p>Define two subclasses of the Product class: Communicator and PictureTaker. Also define three interfaces: Pager, CellPhone, and Camera. Define the Communicator class to implement the Pager and CellPhone interfaces, and define the PictureTaker class to implement the CellPhone and Camera interfaces.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629645_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629645_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629645_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629645_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629645_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_629645_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;Answer A is the easiest to rule out -- it gives CellPhone two superclasses, which is not permitted in Java. C is not the best choice because it doesn't capture the relationships among the various items. D captures some of the relationships but not all (for example, it's missing the relationship between PictureTaker and Camera). Answers B and E are very similar -- they focus on the question of which items should be modeled by interfaces and which by classes. B is a better choice for several reasons. Pagers, phones, and cameras all have both behaviors and data -- for example, the list of phone messages for a phone and the ability to take pictures for both phones and cameras -- while PictureTaker and Communicator correspond to behaviors. In addition, defining PictureTaker as an interface allows us to capture the fact that a cell phone is a product, a picture taker, and a communicator.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_632075" title="632075" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_632075_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_632075_A5</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Consider the following short program, which does not meet all institutional coding standards: void vCodeString(char szText[ ]); /* First line */ #include &lt;stdio.h&gt; #include &lt;string.h&gt; #define MAX_LEN 12 int main(void) { char szData[MAX_LEN]; printf("Enter some text to code: "); scanf("%s", szData); vCodeString(szData); /* Line 8 */ printf("Coded string is %s\n", szData); } void vCodeString(char szText[ ]) { int i = -1; while(szText[++i]) { szText[i] += (char)2; } } I would like to combine lines 8 and 9 into printf("Coded string is %s\n", vCodeString(szData)); Unfortunately, this gives me a syntax error. Why?</p>
+          <qti-choice-interaction responseIdentifier="QUE_632075_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_632075_A1">
+              <p>The %s should be replaced by %c.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632075_A2">
+              <p>The parameter to vCodeString should be szText</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632075_A3">
+              <p>The parameter to vCodeString should be shown as szData[ ].</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632075_A4">
+              <p>printf can only match %s to a variable, not to a function.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632075_A5">
+              <p>vCodeString does not return a value.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632075_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632075_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632075_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632075_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632075_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_632075_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;The printf function cannot take as a parameter a function which does not return a value&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_635015" title="635015" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_635015_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_635015_A1</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>The binary value 11011101 when coverted into a decimal value from two's complement notation is:</p>
+          <qti-choice-interaction responseIdentifier="QUE_635015_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_635015_A1">
+              <p>-35</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_635015_A2">
+              <p>35</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_635015_A3">
+              <p>221</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_635015_A4">
+              <p>-221</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_635015_A5">
+              <p>-33</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_635015_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_635015_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_635015_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_635015_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_635015_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_635015_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;Conversion of negative numbers in two's complement into decimal requires a bit flip, followed by the binary addition of 1. This value is then interpreted as an unsigned binary value.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+    </qti-assessment-section>
+  </qti-test-part>
+</qti-assessment-test>

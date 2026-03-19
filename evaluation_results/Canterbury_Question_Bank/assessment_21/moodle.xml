@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>633574</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Suppose you try to perform a binary search on the unsorted array {1, 4, 3, 7, 15, 9, 24}. How many of the items in this array will be found if they are searched for?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>7, 4, 9, 24, and 1 will be found if searched for. 15 and 3 will not, since they lie to the wrong side of a subrange's midpoint.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[3]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 5
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[4]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 5
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[5]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[6]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 5
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[0]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 5
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 5
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 5
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 5
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 5
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 5
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>634432</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Dummy question: Bloom tags.
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>This question has a tag for each one of the Bloom tags so we can see how many questions there are of each. (Note: delimiters are included in case of errors).</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[blaha]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is blaha
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[blaha]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[blaha]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is blaha
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is blaha
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is blaha
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is blaha
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is blaha
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is blaha
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is blaha
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is blaha
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>633668</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Consider the following class for a Ninja:
+public class Ninja {
+private int honor;
+public Ninja(int h) {
+this.honor=h;
+}
+}
+Suppose we instantiate two Ninjas like this:
+Ninja n1=new Ninja(50);
+Ninja n2=new Ninja(50);
+Is the following statement True, False, or It Depends (i.e. depends on a factor external to this question)
+n1.equals(n2)
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The equals() method has not been overloaded, so it's using the default implementation of equals() in Java, which falls back on ==.
+This is sort of a trick question, but it's a reasonably common error pattern in CS-2.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[True]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is False
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[False]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[It depends]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is False
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is False
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is False
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is False
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is False
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is False
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is False
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is False
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+</quiz>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>630951</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Suppose you are writing software for a helpdesk. Each request is entered into the system as it arrives. Which of the following abstract datatypes would be the best choice to ensure that the requests are handled in exactly the same order in which they arrive?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A Queue is the only abstract datatype where elements are removed in exactly the same order that they arrived in.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[A Stack]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Queue
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[A Queue]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[A List]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Queue
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[A PriorityQueue]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Queue
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[A Dictionary]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Queue
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Queue
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Queue
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Queue
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Queue
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Queue
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>617450</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[If an inorder traversal of a complete binary tree visits the nodes in the order ABCDEF (where each letter is the value of a node), which order are the nodes visited during an postorder traversal?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>DBACFE</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[ABDECF]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is ACBEFD
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[DEBFCA]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is ACBEFD
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[DBFACE]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is ACBEFD
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[DBACFE]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is ACBEFD
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[ACBEFD]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is ACBEFD
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is ACBEFD
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is ACBEFD
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is ACBEFD
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is ACBEFD
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>633269</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[What is not true about a binary search tree?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>BSTs need not be perfect.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[It is a binary tree]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is It is a perfect tree
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[It is a perfect tree]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[The leftmost node is the smallest node in the tree]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is It is a perfect tree
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[When printed with inorder traversal, it will be sorted]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is It is a perfect tree
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is It is a perfect tree
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is It is a perfect tree
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is It is a perfect tree
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is It is a perfect tree
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is It is a perfect tree
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is It is a perfect tree
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+</quiz>

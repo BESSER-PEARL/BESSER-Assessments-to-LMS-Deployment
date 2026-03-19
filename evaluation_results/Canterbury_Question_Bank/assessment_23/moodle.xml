@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>632278</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Which data structure uses space more efficiently if the program is storing substantially less data than expected?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>For an array, you must set aside a block of memory in advance. A linked list only creates nodes for those elements that are actually contained in the list.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[An array]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A linked list
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[A linked list]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[They are both the same]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A linked list
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A linked list
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A linked list
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A linked list
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A linked list
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A linked list
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A linked list
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>634932</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[You need to traverse a singly-linked list in reverse. What's the best worst-case performance you can achieve?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Iterate through the list in the forward direction, but prepend each node on a second list as you do. Then iterate through the second list, which will be in the desired reverse order and traversable in O(N) time.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[O(1)]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is O(N)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[O(log N)]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is O(N)
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[O(N)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[O(N log N)]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is O(N)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[O(N2)]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is O(N)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is O(N)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is O(N)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is O(N)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is O(N)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is O(N)
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>632271</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Which data structure can be used to implement an abstract datatype such as the StackADT or QueueADT?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>StackADT and QueueADT can both be implemented with either an array or a stack. Either may be the better choice, depending on the purpose of the program and the nature of the data being stored.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[an array]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is both
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[a linked list]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is both
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[both]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[neither]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is both
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is both
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is both
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is both
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is both
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is both
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+</quiz>

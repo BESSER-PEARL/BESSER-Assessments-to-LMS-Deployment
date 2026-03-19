@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>632090</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[What is the value of j after this code is executed? int i = 6, j = 10; j += i;
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The value of variable i (6) is added to that of variable j (10) resulting in 16 as the new value of j</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[4]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 16
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[6]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 16
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[10]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 16
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[16]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Undefined]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 16
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 16
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 16
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 16
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 16
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 16
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>635019</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Suppose q is an instance of a queue that can store Strings, and the following statements are executed starting with q empty: 1. q.enqueue("Sweden"); 2. q.enqueue("is"); 3. q.enqueue("my"); 4. String w = q.dequeue(); 5. String x = q.peek(); 6. q.enqueue("neighbor"); 7. String y = q.dequeue(); 8. String z = q.dequeue(); What is the value of z after executing these expressions in order?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>If we consider the contents of the queue after each expression (listing contents from head to tail), we have 1. ["Sweden"] 2. ["Sweden" "is"] 3. ["Sweden" "is" "my"] 4. ["is" "my"] (and w gets set to "Sweden") 5. ["is" "my"] (and x gets set to "is") 6. ["is" "my" "neighbor"] 7. ["my" "neighbor"] (and y gets set to "is") 8. ["neighbor"] (and z gets set to "my")</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA["Sweden"]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is "my"
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["is"]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is "my"
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA["my"]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["neighbor"]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is "my"
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[None of the above]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is "my"
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is "my"
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is "my"
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is "my"
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is "my"
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is "my"
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>634151</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Which of the following parts of a process memory is the largest?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Heap is the largest.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[The code area]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is The heap
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[The globals area]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is The heap
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[The heap]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[The stack]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is The heap
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is The heap
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is The heap
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is The heap
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is The heap
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is The heap
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+</quiz>

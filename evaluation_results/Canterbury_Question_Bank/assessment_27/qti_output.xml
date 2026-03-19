@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qti-assessment-test xmlns="http://www.imsglobal.org/xsd/imsqti_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_v3p0.xsd" identifier="output" title="output">
+  <qti-test-part identifier="testPart-1" navigationMode="nonlinear" submissionMode="individual">
+    <qti-assessment-section identifier="section-1" title="Converted Items" visible="true">
+      <qti-assessment-item identifier="QUE_634194" title="634194" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_634194_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_634194_B</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Nathan is on the run (apparently the US is about to invade Canada). He needs to grab food. Each piece of food around him has a nutritional value, and a weight. He wants to put the most calories in his backpack, but it can only hold up to certain weight. What should he optimize for when deciding which foods to bring?</p>
+          <qti-choice-interaction responseIdentifier="QUE_634194_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_634194_A">
+              <p>The value of food</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634194_B">
+              <p>The value / weight ratio of food</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634194_C">
+              <p>The weight / value ratio of food</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634194_D">
+              <p>The weight of food</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634194_E"/>
+            <qti-simple-choice identifier="QUE_634194_F">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634194_G">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634194_H">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634194_I">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_634194_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;Greedy approach to fractional knapsack.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_629973" title="629973" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_629973_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_629973_E</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Suppose you are defining a Java ProductItem class to store information about the inventory in a store, and you want to give the class an instance variable for the price of that item. Which of the following is the best datatype for the instance variable that models the price?</p>
+          <qti-choice-interaction responseIdentifier="QUE_629973_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_629973_A">
+              <p>double</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629973_B">
+              <p>float</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629973_C">
+              <p>int</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629973_D">
+              <p>String</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629973_E">
+              <p>a user-defined Money class</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629973_F">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629973_G">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629973_H">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629973_I">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629973_J">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_629973_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;Arguments can be made for any of these choices (except perhaps &quot;int&quot;). I would give Money an edge, because a user-defined class allows you to write methods to display the value properly, do arithmetic on it, and perhaps convert it to different currencies. But I&apos;m going to tag this as a question with more than one answer.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_634905" title="634905" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_634905_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_634905_C</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>1.public class FirstApp extends wheels.users.Frame { 2. private wheels.users.Ellipse _ellipse; 3. 4. public FirstApp() { 5. _ellipse = new wheels.users.Ellipse(); 6. } 7. 8. public static void main(String[] args) { 9. FirstApp app = new FirstApp(); 10. } 11.} What does line 2 accomplish (cause to happen)?</p>
+          <qti-choice-interaction responseIdentifier="QUE_634905_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_634905_A">
+              <p>wheels.users.Ellipse is given _ellipse as an alias</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634905_B">
+              <p>An invisible Ellipse is drawn on the screen</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634905_C">
+              <p>_ellipse is declared as a wheels.users.Ellipse</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634905_D">
+              <p>wheels.users.Ellipse is set to be a private object</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634905_E">
+              <p>_ellipse is instantiated as a wheels.users.Ellipse</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634905_F">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634905_G">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634905_H">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634905_I">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634905_J">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_634905_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;Remember that in Java we need to declare variables, and then instantiate them (using new). Line 2 is simply a declaration -- the variable gets instantiated (in line 5) when a FirstApp gets instantiated.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+    </qti-assessment-section>
+  </qti-test-part>
+</qti-assessment-test>

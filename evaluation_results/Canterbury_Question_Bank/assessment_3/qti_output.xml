@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qti-assessment-test xmlns="http://www.imsglobal.org/xsd/imsqti_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_v3p0.xsd" identifier="output" title="output">
+  <qti-test-part identifier="testPart-1" navigationMode="nonlinear" submissionMode="individual">
+    <qti-assessment-section identifier="section-1" title="Converted Items" visible="true">
+      <qti-assessment-item identifier="QUE_2001" title="634183" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2001_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2001_A3</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>For a heap of size n, which is indexed at 0, at what position will its last child be?</p>
+          <qti-choice-interaction responseIdentifier="QUE_2001_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_2001_A1">
+              <p>2n + 1</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A2">
+              <p>n / 2</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A3">
+              <p>n - 1</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A4">
+              <p>floor(n / 2) + 1</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A5"/>
+            <qti-simple-choice identifier="QUE_2001_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A9">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2001_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;The last element will be at the end of the array.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_2002" title="634156" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2002_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2002_A2</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>What design stategy does Quicksort use?</p>
+          <qti-choice-interaction responseIdentifier="QUE_2002_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_2002_A1">
+              <p>Greedy</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A2">
+              <p>Divide and conquer</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A3">
+              <p>Dynamic programming</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A4">
+              <p>Brute force</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A5"/>
+            <qti-simple-choice identifier="QUE_2002_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A9">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2002_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;Quicksort is divide and conquer.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_2003" title="634154" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2003_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2003_A3</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>If you did not have a base case in a recursive function in C, and were working on a modern Unix-based system, what would most likely happen?</p>
+          <qti-choice-interaction responseIdentifier="QUE_2003_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_2003_A1">
+              <p>Segmentation fault</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A2">
+              <p>Stack overflow error</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A3">
+              <p>C wouldn’t complain, but your computer would crash</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A4">
+              <p>Nothing, that’s fine</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A5"/>
+            <qti-simple-choice identifier="QUE_2003_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A9">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2003_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;It really depends on the program for whether it would be B or C. Both can be argued to be correct.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+    </qti-assessment-section>
+  </qti-test-part>
+</qti-assessment-test>

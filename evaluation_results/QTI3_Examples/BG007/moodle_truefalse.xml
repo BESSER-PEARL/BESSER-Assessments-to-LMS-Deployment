@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+
+  <question type="truefalse">
+    <name>
+      <text>BG true false example </text>
+    </name>
+                             
+                                
+    <questiontext format="html">
+      <text><![CDATA[This is a True/False question?]]></text>
+    </questiontext>
+                                
+                             
+    <generalfeedback format="html">
+      <text><![CDATA[The correct answer is true.]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+
+    <answer fraction="100">
+      <text>true</text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+      <feedback format="html">
+        <text><![CDATA[Incorrect. The correct answer is True]]></text>
+      </feedback>
+    </answer>
+          
+  </question>
+
+
+</quiz>

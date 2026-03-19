@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>Question 633227</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[What is printed when the following program runs?
+      <pre>public class Main {
+    public static boolean getTrue() {
+        System.out.print("T");
+        return true;
+    }
+    public static boolean getFalse() {
+        System.out.print("F");
+        return false;
+    }
+    public static void main(String[] args) {
+        getTrue() || getTrue();
+    }
+}</pre>
+                                   
+                                 
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[If the first operand for || is true, as is the case here, the second is not evaluated.]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[TT]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is T
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[T]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[F]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is T
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[TF]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is T
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Nothing is printed.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is T
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is T
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is T
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is T
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is T
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is T
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>Question 633298</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[You are storing a complete binary tree in an array, with the root at index 0. At what index is node i's parent?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[(i - 1) / 2]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[2i]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is (i - 1) / 2
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[2i + 1]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is (i - 1) / 2
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[i + i + 2]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is (i - 1) / 2
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[i / 2 + 1]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is (i - 1) / 2
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[(i - 1) / 2]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is (i - 1) / 2
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is (i - 1) / 2
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is (i - 1) / 2
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is (i - 1) / 2
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is (i - 1) / 2
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>Question 634959</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Which of the following abstract datatypes would be the best choice for part of the implementation of the part of a compiler that determines whether the parentheses in a program are balanced?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[A close parenthesis must match the most recently entered open parenthesis. So for example, the sequence )()( doesn't match, while ()() and (()) do, even though they all have two open and two close parentheses. To make this work, you can push each open parenthesis on a Stack, and pop it off each time you see a close parenthesis. The last-in-first-out nature of a Stack makes it easy to determine whether the parentheses are balanced.]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+
+
+    <answer fraction="100">
+      <text><![CDATA[A Stack]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[A Queue]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Stack
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[A List]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Stack
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[A PriorityQueue]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Stack
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[A Dictionary]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Stack
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Stack
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Stack
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Stack
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Stack
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Stack
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+</quiz>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>633618</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[True or False: Breadth-first search (BFS) and Depth-first search (DFS) visit nodes of a graph in the same order only if the graph looks like a linear chain, or linked list, and the traversal starts at one of the ends. For example, BFS and DFS starting at node A are the same for the following graph: A <-> B <-> C
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>We could add any number of nodes to node B, and visit nodes in the same order starting at node A and node B.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[True]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is False
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[False]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is False
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is False
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is False
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is False
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is False
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>633895</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Kexin is hashing the values 9, 45, 22, 48, 38 into a hash table of size 20. Which hash function will give her no collisions?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A will collide on the 48/38; B will collide with 45/48; C will collide with 9/45.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[h(k) = k % 10]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is h(k) = (k % 10) - (k / 10)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[h(k) = k / 10]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is h(k) = (k % 10) - (k / 10)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[h(k) = (k % 10) + (k / 10)]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is h(k) = (k % 10) - (k / 10)
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[h(k) = (k % 10) - (k / 10)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is h(k) = (k % 10) - (k / 10)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is h(k) = (k % 10) - (k / 10)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is h(k) = (k % 10) - (k / 10)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is h(k) = (k % 10) - (k / 10)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is h(k) = (k % 10) - (k / 10)
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>634944</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[For the Insertion sort algorithm; what is its best case and worst case performance?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Insertion sort, if given an already sorted list, will still perform O(n) comparisons to ascertain the list is sorted. If the list is "reverse sorted," then the first pass will require 1 exchange. The second pass will require 2 exchanges, etc. Hence, in the worst case, O(n2) exchanges.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+
+
+    <answer fraction="100">
+      <text><![CDATA[Best: O(n) Worst: O(n2)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Best: O(n) Worst: O(n)]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Best: O(n) Worst: O(n2)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Best: O(log2 n) Worst: O(n2)]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Best: O(n) Worst: O(n2)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Best: O(n2) Worst: O(n2)]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Best: O(n) Worst: O(n2)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[None of the above.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Best: O(n) Worst: O(n2)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Best: O(n) Worst: O(n2)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Best: O(n) Worst: O(n2)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Best: O(n) Worst: O(n2)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Best: O(n) Worst: O(n2)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Best: O(n) Worst: O(n2)
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+</quiz>

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>634254</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Read the following method skeleton and choose the best expression to fill in the blank on line 8 so that the method will behave correctly:
+      <pre>/**
+* Takes a string reference and counts the number of times
+* the character 'A' or 'a' appears in the string object.
+* @param aString String reference to object containing chars.
+* @precondition aString is not null (you may assume this is true).
+* @return The number of times 'A' or 'a' appears in the string.
+*/
+public static int countAs(String aString) // line 1
+{
+int counter = __________; // line 2
+int totalA = 0; // line 3
+while (counter < __________) // line 4
+{
+if ( __________.equals("A") ) // line 5
+{
+totalA = totalA + __________; // line 6
+}
+counter++; // line 7
+}
+return __________; // line 8
+}</pre>
+                                   
+                                 
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The return type of the method is int, so an integer return value must be provided. Since counter is used as a loop index, it will always end up being the total number of characters in the given string. The variable totalA is used as an accumulator that is incremented each time a letter A is found in the string, so it is the choice that will provide the correct return value for the method.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[counter]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is totalA
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[true]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is totalA
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[false]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is totalA
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[totalA]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[aString]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is totalA
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is totalA
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is totalA
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is totalA
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is totalA
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is totalA
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>632805</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Which data structure used to implement Set yields the worst performance for Set.contains?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Implementing Set.contains involves a search of the data structure. A binary search tree and a sorted array are searched in O(lg n) time, and a hashtable in O(1), assuming a sane hash function. A linked list is searched in O(n) time.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[Binary search tree]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Linked list
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[Linked list]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Sorted array]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Linked list
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Hashtable]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Linked list
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Linked list
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Linked list
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Linked list
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Linked list
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Linked list
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>633246</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[For a graph with N nodes, what's the minimum number of edges it must have for it to contain a cycle?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A vertex with an edge to itself is a cycle.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[N + 1]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[N]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[N - 1]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[1]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[2]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+</quiz>

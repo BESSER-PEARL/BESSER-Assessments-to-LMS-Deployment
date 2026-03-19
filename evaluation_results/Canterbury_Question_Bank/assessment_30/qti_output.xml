@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qti-assessment-test xmlns="http://www.imsglobal.org/xsd/imsqti_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_v3p0.xsd" identifier="output" title="output">
+  <qti-test-part identifier="testPart-1" navigationMode="nonlinear" submissionMode="individual">
+    <qti-assessment-section identifier="section-1" title="Converted Items" visible="true">
+      <qti-assessment-item identifier="QUE_2001" title="632266" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2002_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2007_A4</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Suppose you are trying to choose between an array and a singly linked list to store the data in your Java program. Which arguments would correctly support one side or the other?</p>
+          <qti-choice-interaction responseIdentifier="QUE_2002_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_2004_A1">
+              <p>Linked lists are better suited to a program where the amount of data can change unpredictably.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2005_A2">
+              <p>Arrays provide more efficient access to individual elements.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2006_A3">
+              <p>Linked lists provide more efficient access to individual elements.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2007_A4">
+              <p>A and B only</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2008_A5">
+              <p>A, B, and C</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2009_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2010_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2011_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2012_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2013_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2003_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;Array elements can be accessed in constant time, but access to an element of a linked list is O(n), so B is correct and C is incorrect. A is also correct, because arrays require you to guess how much memory will be needed and set aside a fixed amount, while linked lists use memory as needed for the data that are being stored. Since A and B are correct and C is not, the answer is D.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_2014" title="633398" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2015_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2020_A5</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>The insertion sort operates by maintaining a sorted list. When a new element is added, we traverse the list sequentially until will find the new element's appropriate location. Suppose instead that the new location was found using a binary search instead of a sequential search. What is the complexity of this new binary insertion sort?</p>
+          <qti-choice-interaction responseIdentifier="QUE_2015_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_2016_A1">
+              <p>O(N)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2017_A2">
+              <p>O(log N)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2018_A3">
+              <p>O(N + log N)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2019_A4">
+              <p>O(N * log N)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2020_A5">
+              <p>O(N2)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2021_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2022_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2023_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2024_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2025_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2026_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;The binary search will indeed speed up finding the location of the newly added object. However, we still have the problem of shifting all subsequent elements. This algorithm, like the regular insertion sort, is O(N2).&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_2027" title="633573_2" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2028_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2031_A3</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Suppose you try to perform a binary search on a 5-element array sorted in the reverse order of what the binary search algorithm expects. How many of the items in this array will be found if they are searched for?</p>
+          <qti-choice-interaction responseIdentifier="QUE_2028_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_2029_A1">
+              <p>5</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2030_A2">
+              <p>0</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2031_A3">
+              <p>1</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2032_A4">
+              <p>2</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2033_A5">
+              <p>3</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2034_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2035_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2036_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2037_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2038_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2039_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;Only the middle element will be found. The remaining elements will not be contained in the subranges that we narrow our search to.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+    </qti-assessment-section>
+  </qti-test-part>
+</qti-assessment-test>

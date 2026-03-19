@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qti-assessment-test xmlns="http://www.imsglobal.org/xsd/imsqti_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_v3p0.xsd" identifier="output" title="output">
+  <qti-test-part identifier="testPart-1" navigationMode="nonlinear" submissionMode="individual">
+    <qti-assessment-section identifier="section-1" title="Converted Items" visible="true">
+      <qti-assessment-item identifier="QUE_633260" title="633260" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_633260_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_633260_A2</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>When is an adjacency matrix a good choice for implementing a graph?</p>
+          <qti-choice-interaction responseIdentifier="QUE_633260_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_633260_A1">
+              <p>When the graph is undirected.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633260_A2">
+              <p>When the graph is nearly complete.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633260_A3">
+              <p>When a graph has few edges.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633260_A4">
+              <p>When the graph contains no cycles.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633260_A5">
+              <p>When the graph is connected.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633260_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633260_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633260_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633260_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633260_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_633260_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;The adjacency matrix will compactly and efficiently store edges when it contains little wasted space. In a complete graph, each vertex shares an edge with each other vertex, meaning all elements in the adjacency matrix will be used.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_634147" title="634147" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_634147_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_634147_A3</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>What is true about the pivot in quicksort?</p>
+          <qti-choice-interaction responseIdentifier="QUE_634147_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_634147_A1">
+              <p>Before partitioning, it is always the smallest element in the list</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634147_A2">
+              <p>After partitioning, the pivot will always be in the centre of the list</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634147_A3">
+              <p>After partitioning, the pivot will never move again</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634147_A4">
+              <p>A random choice of pivot is always the optimal choice, regardless of input</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634147_A5"></qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634147_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634147_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634147_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634147_A9">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_634147_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;As the pivot will be to the right of all smaller elements and to the left of all larger elements, it is in the same position it will be when the array is sorted.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_633259" title="633259" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_633259_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_633259_A3</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>When is an adjacency list a good choice for implementing a graph?</p>
+          <qti-choice-interaction responseIdentifier="QUE_633259_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_633259_A1">
+              <p>When the graph is undirected.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633259_A2">
+              <p>When the graph is nearly complete.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633259_A3">
+              <p>When a graph has few edges.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633259_A4">
+              <p>When the graph contains no cycles.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633259_A5">
+              <p>When the graph is connected.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633259_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633259_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633259_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633259_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633259_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_633259_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;With adjacency lists are used, each vertex stores its own list of vertices it's connected to. When a graph contains few edges, these lists will be very short and will likely consume less memory than the adjacency matrix.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+    </qti-assessment-section>
+  </qti-test-part>
+</qti-assessment-test>

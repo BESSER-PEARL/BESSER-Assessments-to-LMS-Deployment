@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>633240</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Finding the minimum value in a complete and balanced binary search tree is
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The minimum is the root's left-most descendent, which can be reached in log N steps.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[O(1)]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is O(log N)
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[O(log N)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[O(N)]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is O(log N)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[O(N2)]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is O(log N)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[O(N log N)]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is O(log N)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is O(log N)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is O(log N)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is O(log N)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is O(log N)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is O(log N)
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>634971</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[An interface in Java can appropriately be used to model
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Interfaces allow us to specify common capabilities in unrelated classes: a way to say that two classes have the same methods without specifying the implementation (and allowing completely different implementations). For closely related classes (near each other in inheritance hierarchy) we can get common capabilities by having them in a common ancestor. Abstract classes provide a method to specify common capabilities via inheritance. Interfaces cannot be used to specify that two classes share a set of attributes (i.e. instance variables), which can be done by having classes inherit from a common ancestor with those attributes.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[Abstract classes]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Unrelated classes that share particular capabilities
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[Unrelated classes that share particular capabilities]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Related classes that share particular attributes]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Unrelated classes that share particular capabilities
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Classes that communicate using the same network protocol]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Unrelated classes that share particular capabilities
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[None of the above]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Unrelated classes that share particular capabilities
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Unrelated classes that share particular capabilities
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Unrelated classes that share particular capabilities
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Unrelated classes that share particular capabilities
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Unrelated classes that share particular capabilities
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Unrelated classes that share particular capabilities
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>632068</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Consider the following short program:
+#include <stdio.h>
+void f1(void);
+int a;
+void main(void)
+{
+int b;
+a = b = 1;
+f1();
+printf("%d %d", a, b);
+}
+void f1(void)
+{
+int b = 3;
+a = b;
+}
+The output from the print statement will be:
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Explanation to be completed</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[1 1]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 3 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[1 3]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 3 1
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[3 1]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[3 3]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 3 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[3 5]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 3 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 3 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 3 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 3 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 3 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 3 1
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+</quiz>

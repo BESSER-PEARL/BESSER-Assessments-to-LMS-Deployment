@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qti-assessment-test xmlns="http://www.imsglobal.org/xsd/imsqti_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_v3p0.xsd" identifier="TEST_0001" title="Converted Items">
+  <qti-test-part identifier="testPart-1" navigationMode="nonlinear" submissionMode="individual">
+    <qti-assessment-section identifier="section-1" title="Converted Items" visible="true">
+      <qti-assessment-item identifier="QUE_629971" title="629971" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_629971_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_629971_A3</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Suppose you are defining a Java ProductItem class to store information about the inventory in a store, and you want to give the class an instance variable for the number of those items currently in stock. Choose the best datatype for modeling this number:</p>
+          <qti-choice-interaction responseIdentifier="QUE_629971_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_629971_A1">
+              <p>double</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629971_A2">
+              <p>float</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629971_A3">
+              <p>int</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629971_A4">
+              <p>a user-defined NumberInStock class</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629971_A5">
+              <p>String</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629971_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629971_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629971_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629971_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629971_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_629971_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;A and B are wrong because you want to model an integer, not a floating point number. E is wrong because you probably want to use this number for adding and subtracting, not just for display. D is less good than C, because the built-in operations on ints will most likely be sufficient for the purposes of this variable.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_633604" title="633604" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_633604_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_633604_A4</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>What wil the following code print, assuming that N is a positive integer? int count=0; for (int i=0; i&lt;N; i++) { if (i % 2 == 0) { count++; } } System.out.println(count);</p>
+          <qti-choice-interaction responseIdentifier="QUE_633604_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_633604_A1">
+              <p>N</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633604_A2">
+              <p>N/2</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633604_A3">
+              <p>N/2+1</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633604_A4">
+              <p>(N+1)/2</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633604_A5">
+              <p>0 (i.e. the loop body never executes)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633604_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633604_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633604_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633604_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633604_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_633604_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;If N is even, for example N=12, N/2 works. However, suppose N is odd, for example N=13. Here the result should be 7, which is (N+1)/2. However, for N=12, (N+1)/2 also works. (N+1)/2 works for all positive integer.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_634906" title="634906" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_634906_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_634906_A1</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Two algorithms accomplish the same task on a collection of N items. Algorithm A performs (N/2)3 operations. Algorithm B performs N2 operations. Under what conditions does algorithm A offer strictly better performance?</p>
+          <qti-choice-interaction responseIdentifier="QUE_634906_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_634906_A1">
+              <p>N &lt;= 7</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634906_A2">
+              <p>N &lt;= 8</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634906_A3">
+              <p>N &gt; 8</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634906_A4">
+              <p>For all N</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634906_A5">
+              <p>For no N</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634906_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634906_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634906_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634906_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634906_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_634906_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;For N &lt;= 7, (N/2)3 &lt; N2.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+    </qti-assessment-section>
+  </qti-test-part>
+</qti-assessment-test>

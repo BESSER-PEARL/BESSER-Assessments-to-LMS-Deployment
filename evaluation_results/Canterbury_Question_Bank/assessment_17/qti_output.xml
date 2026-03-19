@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qti-assessment-test xmlns="http://www.imsglobal.org/xsd/imsqti_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_v3p0.xsd" identifier="output" title="output">
+  <qti-test-part identifier="testPart-1" navigationMode="nonlinear" submissionMode="individual">
+    <qti-assessment-section identifier="section-1" title="Converted Items" visible="true">
+      <qti-assessment-item identifier="QUE_2001" title="632810" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2002_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2004_A1</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Which of the following assertions is incorrect?</p>
+          <qti-choice-interaction responseIdentifier="QUE_2002_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_2004_A1">
+              <p>A Python statement may return a value</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2005_A2">
+              <p>A Python expression may return a value</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2006_A3">
+              <p>A Python statement may produce a side effect</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2007_A4">
+              <p>A Python expression may produce a side effect</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2008_A5">
+              <p>None of the above (i.e., all are correct)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2009_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2010_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2011_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2012_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2013_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2003_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;Basically, a statement in Python is a special kind of function that doesn't return a value. Statements are things like print (in Python 2.x but not Python 3) and import. I think this is not a great question to put on a CS-1 exam beacuse it relies on terminology (statement, expression, side-effect) that doesn't really mean much until CS-2 or later.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_2014" title="634189" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2015_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2018_A3</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>What is not a property of a max-heap?</p>
+          <qti-choice-interaction responseIdentifier="QUE_2015_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_2016_A1">
+              <p>It is complete</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2017_A2">
+              <p>A node’s value is less than or equal to that of its parent</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2018_A3">
+              <p>Its values are sorted in when printed in level order</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2019_A4">
+              <p>Its root is the maximum element in the tree</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2020_A5">
+              <p></p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2021_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2022_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2023_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2024_A9">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2025_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;A max-heap need not be sorted.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_2026" title="633882" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2027_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2031_A4</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Barack Obama wants to know the most efficient way to sort a million 32-bit integers. He knows it’s not bubble sort. What is?</p>
+          <qti-choice-interaction responseIdentifier="QUE_2027_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_2028_A1">
+              <p>Heapsort</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2029_A2">
+              <p>Insertion sort</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2030_A3">
+              <p>Mergesort</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2031_A4">
+              <p>Radix sort</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2032_A5">
+              <p>Quicksort</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2033_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2034_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2035_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2036_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2037_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2038_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;Radix sort will be O(n) and works nicely on integers; at such a large scale it will outperform the O(nlgn) sorting algorithms. (question is a reference to http://www.youtube.com/watch?v=k4RRi_ntQc8 )&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+    </qti-assessment-section>
+  </qti-test-part>
+</qti-assessment-test>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>617507</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[How many objects are created in the following declaration? String[] names = new String[10];
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>None of the above</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[0]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[1]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[10]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[11]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[None of the above]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>632880</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[We say indexing is fast if it's done in O(1) time, searching is fast if done in O(lg N) time, and inserting and deleting are fast if done in O(1) time. Compared to other data structures, unsorted linked lists offer:
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Linked lists do not support fast indexing. To get at element i, one must traverse the list i steps. Slow indexing makes for slow searching, as the binary search relies upon fast indexing to retrieve the middle element. Insertions and deletions, on the other hand, can be done in constant time, as only one or two neighboring links are affected.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[slow indexing, slow search, slow insertions and deletions.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is slow indexing, slow search, fast insertions and deletions.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[fast indexing, fast search, slow insertions and deletions.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is slow indexing, slow search, fast insertions and deletions.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[fast indexing, slow search, slow insertions and deletions.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is slow indexing, slow search, fast insertions and deletions.
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[slow indexing, slow search, fast insertions and deletions.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[slow indexing, fast search, fast insertions and deletions.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is slow indexing, slow search, fast insertions and deletions.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is slow indexing, slow search, fast insertions and deletions.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is slow indexing, slow search, fast insertions and deletions.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is slow indexing, slow search, fast insertions and deletions.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is slow indexing, slow search, fast insertions and deletions.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is slow indexing, slow search, fast insertions and deletions.
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>634930</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Consider the following code snippet that copies elements (pixels) from one 2-d array (called pict), with maximum dimensions of maxWidth and maxHeight into another 2-d array called canvas. canvas = [][] for row in range (0, maxHeight): for col in range (0, maxWidth): origPixel = pict[col][row] canvas[width-1-col][row = origPixel If one were to display canvas, how would it compare to the orignal picture (as represented by pict)?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Each pixel remains on the same row (line) that it originally was on. For any given row, the leftmost pixel swaps positions with the rightmost. The second pixel in a row swaps positions with the second last pixel in that row, etc. Hence, the picture is rotated across the vertical center line.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+
+
+    <answer fraction="100">
+      <text><![CDATA[Rotated 180 degrees around the vertical center line/column.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Rotated 180 degrees around the horizontal center line/row.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Rotated 180 degrees around the vertical center line/column.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Rotated left 90 degrees.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Rotated 180 degrees around the vertical center line/column.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Rotated right 90 degrees.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Rotated 180 degrees around the vertical center line/column.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Rotated 180 degrees.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Rotated 180 degrees around the vertical center line/column.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Rotated 180 degrees around the vertical center line/column.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Rotated 180 degrees around the vertical center line/column.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Rotated 180 degrees around the vertical center line/column.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Rotated 180 degrees around the vertical center line/column.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Rotated 180 degrees around the vertical center line/column.
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+</quiz>

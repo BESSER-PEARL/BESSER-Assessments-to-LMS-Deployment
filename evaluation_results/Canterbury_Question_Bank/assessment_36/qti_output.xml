@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qti-assessment-test xmlns="http://www.imsglobal.org/xsd/imsqti_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_v3p0.xsd" identifier="output" title="output">
+  <qti-test-part identifier="testPart-1" navigationMode="nonlinear" submissionMode="individual">
+    <qti-assessment-section identifier="section-1" title="Converted Items" visible="true">
+      <qti-assessment-item identifier="QUE_2001" title="634947" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2001_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2001_A4</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>For the selection sort algorithm; what is its best case and worst case running time?</p>
+          <qti-choice-interaction responseIdentifier="QUE_2001_RL">
+            <qti-simple-choice identifier="QUE_2001_A1">
+              <p>Best: O(1) Worst: O(n)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A2">
+              <p>Best: O(n) Worst: O(n2)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A3">
+              <p>Best: O(log2 n) Worst: O(n)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A4">
+              <p>Best: O(n2) Worst: O(n2)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A5">
+              <p>None of the above.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2001_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;Selection sort repeatedly runs the Find-largest algorithm as its helper function. So, regardless of the list&apos;s initial ordering, Find-largest will cost n-1 comparisons for the first pass, n-2 for the second, etc. Hence selection sort&apos;s run time performence is independent of the list&apos;s initial ordering: O(n2)&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_2002" title="633400" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2002_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2002_A2</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>You see the expression n = 100000 in some code that successfully compiles. What type can n not be?</p>
+          <qti-choice-interaction responseIdentifier="QUE_2002_RL">
+            <qti-simple-choice identifier="QUE_2002_A1">
+              <p>int</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A2">
+              <p>short</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A3">
+              <p>float</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A4">
+              <p>double</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A5">
+              <p>long</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2002_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;Shorts can only hold values in [-32768, 32767].&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_2003" title="633397" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2003_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2003_A4</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Suppose you try to perform a binary search on the unsorted array {1, 4, 3, 7, 15, 9, 24}. Which element will not be found when you try searching for it?</p>
+          <qti-choice-interaction responseIdentifier="QUE_2003_RL">
+            <qti-simple-choice identifier="QUE_2003_A1">
+              <p>7</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A2">
+              <p>1</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A3">
+              <p>9</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A4">
+              <p>15</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A5">
+              <p>24</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2003_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;The answer is 15. The first check will look at 7. 15 is greater than 7, so we search to its right. The second check will look at 9. 15 is greater than 9, so we search to its right. The third check will look at 24. 15 is less than 24, so we look to its left. However, our range has just been inverted and our searching stops, not having found 15.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+    </qti-assessment-section>
+  </qti-test-part>
+</qti-assessment-test>

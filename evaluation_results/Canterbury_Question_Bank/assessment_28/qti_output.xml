@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qti-assessment-test xmlns="http://www.imsglobal.org/xsd/imsqti_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_v3p0.xsd" identifier="output" title="output">
+  <qti-test-part identifier="testPart-1" navigationMode="nonlinear" submissionMode="individual">
+    <qti-assessment-section identifier="section-1" title="Converted Items" visible="true">
+      <qti-assessment-item identifier="QUE_2001" title="632876" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2001_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2001_A3</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>We say indexing is fast if it's done in O(1) time, searching is fast if done in O(lg N) time, and inserting and deleting are fast if done in O(1) time. Compared to other data structures, unsorted arrays offer:</p>
+          <qti-choice-interaction responseIdentifier="QUE_2001_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_2001_A1">
+              <p>a. slow indexing, slow search, slow insertions and deletions.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A2">
+              <p>b. fast indexing, fast search, slow insertions and deletions.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A3">
+              <p>c. fast indexing, slow search, slow insertions and deletions.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A4">
+              <p>d. slow indexing, slow search, fast insertions and deletions.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A5">
+              <p>e. slow indexing, fast search, fast insertions and deletions.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A6">f. "</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A7">g. "</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A8">h. "</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A9">i. "</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A10">j. "</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2001_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;Unsorted arrays can be indexed in constant time (which is fast), searched in O(N) time (which is not as good as O(lg N)), and restructured in O(N) time (which is not as good as O(1) time).&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_2002" title="634933" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2002_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2002_A4</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>One of the things in Java that allows us to use polymorphism is that the declared type and actual type of a variable may be different. In Java, the actual type of a parameter or variable’s value can be any concrete class that is</p>
+          <qti-choice-interaction responseIdentifier="QUE_2002_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_2002_A1">
+              <p>a. the same as the declared type, or any subclass of the declared type (if the declared type is a class)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A2">
+              <p>b. any class that implements the declared type (if the declared type is an interface)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A3">
+              <p>c. any subclass of a class that implements the declared type (if the declared type is an interface)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A4">
+              <p>d. A, B, and C above.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A5">
+              <p>e. A and B above, but not C</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A6">f. "</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A7">g. "</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A8">h. "</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A9">i. "</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A10">j. "</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2002_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;The rule of thumb is that the declared type is the same or more abstract than the actual type. If the declared type is a class, the things that are equally or less abstract are its descendants -- a subclass specializes a class. If declared type is an interface, it is an abstraction of any class that implements it, or by the relationship between classes and its descendants, any class that is a subclass of something that implements it. Java wants a guarantee that the actual type will have the declared type's methods. That can be via inheritance or implementing an interface, or a combination of the two.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_2003" title="632218" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2003_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2003_A4</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>An example of something that could be implemented using a Stack is:</p>
+          <qti-choice-interaction responseIdentifier="QUE_2003_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_2003_A1">
+              <p>a. The undo operation in Word</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A2">
+              <p>b. The back button in a web browser</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A3">
+              <p>c. A postfix calculator</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A4">
+              <p>d. All of the above</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A5">
+              <p>e. Items (A) and (B) only</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A6">f. "</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A7">g. "</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A8">h. "</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A9">i. "</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A10">j. "</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2003_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;Anytime you're solving a problem where you're adding and removing data and you always need to remove the item that was added most recently is suited to a Stack. This is called a last-in-first-out property, or LIFO. Back buttons, the undo operation, and postfix calculators all have the last-in-first-out property.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+    </qti-assessment-section>
+  </qti-test-part>
+</qti-assessment-test>

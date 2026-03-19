@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qti-assessment-test xmlns="http://www.imsglobal.org/xsd/imsqti_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_v3p0.xsd" identifier="output" title="output">
+  <qti-test-part identifier="testPart-1" navigationMode="nonlinear" submissionMode="individual">
+    <qti-assessment-section identifier="section-1" title="Converted Items" visible="true">
+      <qti-assessment-item identifier="QUE_2001" title="632474" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2001_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2001_D</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Identify the bug in the following Java code (if any):</p>
+          <pre>public boolean search(T item,ListADT&lt;T&gt; list){ // 1
+if (list == null) // 2
+return false; // 3
+else if (list.first()==item) // 4
+return true; // 5
+else // 6
+return this.search(item, list.rest()); // 7
+} // 8</pre>
+          <qti-choice-interaction responseIdentifier="QUE_2001_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_2001_A">
+              <p>a. There is no base case</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_B">
+              <p>b. The problem is not self-similar</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_C">
+              <p>c. The problem does not get smaller</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_D">
+              <p>d. There are no bugs</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_E">
+              <p>e. None of the above</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_F">f. "</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_G">g. "</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_H">h. "</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_I">i. "</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_J">j. "</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2001_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;For a recursive solution to a problem, you need three things: (1) a base case (where the problem can be solved without recursion) (2) a self-similar problem (one that contains similar problem(s) to itself) (3) a way of making the problem smaller so you get closer to the base case. Here (2) is satisfied -- lists contain smaller lists. (1) is satisfied by lines 2-5 of the method. And (3) is satisfied because line 7's recursive call takes the rest of the list as a parameter, rather than the whole list.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_2002" title="634918" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2002_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2002_A</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Suppose QueueADT is implemented using a singly linked list. What is the lowest Big-Oh time complexity that can be achieved for an enqueue method?</p>
+          <qti-choice-interaction responseIdentifier="QUE_2002_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_2002_A">
+              <p>a. O(1)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_B">
+              <p>b. O(log2 n)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_C">
+              <p>c. O(n)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_D">
+              <p>d. O(n2)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_E">
+              <p>e. none of the above</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_F">f. "</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_G">g. "</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_H">h. "</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_I">i. "</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_J">j. "</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2002_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;If you keep a pointer to the last element of the queue, then the enqueue method just needs a fixed number of statements, which are the same independent of the size of the queue.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_2003" title="633554" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2003_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2003_E</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>What terminates a failed linear probe in a full hashtable?</p>
+          <qti-choice-interaction responseIdentifier="QUE_2003_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_2003_A">
+              <p>a. The end of the array</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_B">
+              <p>b. A deleted node</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_C">
+              <p>c. A null entry</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_D">
+              <p>d. A node with a non-matching key</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_E">
+              <p>e. Revisiting the original hash index</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_F">f. "</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_G">g. "</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_H">h. "</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_I">i. "</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_J">j. "</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2003_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;A null entry will not appear in a full hashtable. Seeing the end of the array isn't correct, since we need to examine all elements, including those that appear before our original hash index. A node with a non-matching key is what started our probe in the first place. The purpose of leaving a deleted node in the table is so that probing may proceed past it. Revisiting the original hash index means we've looked at every entry and determined the item doesn't appear in the table.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+    </qti-assessment-section>
+  </qti-test-part>
+</qti-assessment-test>

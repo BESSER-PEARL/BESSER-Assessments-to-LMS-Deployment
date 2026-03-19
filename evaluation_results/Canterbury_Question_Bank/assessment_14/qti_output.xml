@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qti-assessment-test xmlns="http://www.imsglobal.org/xsd/imsqti_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_v3p0.xsd" identifier="output" title="output">
+  <qti-test-part identifier="testPart-1" navigationMode="nonlinear" submissionMode="individual">
+    <qti-assessment-section identifier="section-1" title="Converted Items" visible="true">
+      <qti-assessment-item identifier="QUE_632068" title="632068" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_632068_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_632068_A3</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Consider the following short program:
+#include &lt;stdio.h&gt;
+void f1(void);
+int a;
+void main(void)
+{
+int b;
+a = b = 1;
+f1();
+printf("%d %d", a, b);
+}
+void f1(void)
+{
+int b = 3;
+a = b;
+}
+The output from the print statement will be:</p>
+          <qti-choice-interaction responseIdentifier="QUE_632068_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_632068_A1">
+              <p>1 1</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632068_A2">
+              <p>1 3</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632068_A3">
+              <p>3 1</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632068_A4">
+              <p>3 3</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632068_A5">
+              <p>3 5</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632068_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632068_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632068_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632068_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632068_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_632068_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;Explanation to be completed&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_633240" title="633240" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_633240_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_633240_A2</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Finding the minimum value in a complete and balanced binary search tree is</p>
+          <qti-choice-interaction responseIdentifier="QUE_633240_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_633240_A1">
+              <p>O(1)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633240_A2">
+              <p>O(log N)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633240_A3">
+              <p>O(N)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633240_A4">
+              <p>O(N2)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633240_A5">
+              <p>O(N log N)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633240_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633240_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633240_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633240_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633240_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_633240_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;The minimum is the root's left-most descendent, which can be reached in log N steps.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_634971" title="634971" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_634971_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_634971_A2</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>An interface in Java can appropriately be used to model</p>
+          <qti-choice-interaction responseIdentifier="QUE_634971_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_634971_A1">
+              <p>Abstract classes</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634971_A2">
+              <p>Unrelated classes that share particular capabilities</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634971_A3">
+              <p>Related classes that share particular attributes</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634971_A4">
+              <p>Classes that communicate using the same network protocol</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634971_A5">
+              <p>None of the above</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634971_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634971_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634971_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634971_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634971_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_634971_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;Interfaces allow us to specify common capabilities in unrelated classes: a way to say that two classes have the same methods without specifying the implementation (and allowing completely different implementations). For closely related classes (near each other in inheritance hierarchy) we can get common capabilities by having them in a common ancestor. Abstract classes provide a method to specify common capabilities via inheritance. Interfaces cannot be used to specify that two classes share a set of attributes (i.e. instance variables), which can be done by having classes inherit from a common ancestor with those attributes.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+    </qti-assessment-section>
+  </qti-test-part>
+</qti-assessment-test>

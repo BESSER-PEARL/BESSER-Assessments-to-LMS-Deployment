@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qti-assessment-test xmlns="http://www.imsglobal.org/xsd/imsqti_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_v3p0.xsd" identifier="output" title="output">
+  <qti-test-part identifier="testPart-1" navigationMode="nonlinear" submissionMode="individual">
+    <qti-assessment-section identifier="section-1" title="Converted Items" visible="true">
+      <qti-assessment-item identifier="QUE_2001" title="632805" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2001_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2002_A2</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Which data structure used to implement Set yields the worst performance for Set.contains?</p>
+          <qti-choice-interaction responseIdentifier="QUE_2001_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_2002_A1">
+              <p>Binary search tree</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A2">
+              <p>Linked list</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A3">
+              <p>Sorted array</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2004_A4">
+              <p>Hashtable</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2005_A5">
+              <p></p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2006_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2007_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2008_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2009_A9">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2000_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;Implementing Set.contains involves a search of the data structure. A binary search tree and a sorted array are searched in O(lg n) time, and a hashtable in O(1), assuming a sane hash function. A linked list is searched in O(n) time.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_2011" title="633246" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2011_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2014_A4</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>For a graph with N nodes, what's the minimum number of edges it must have for it to contain a cycle?</p>
+          <qti-choice-interaction responseIdentifier="QUE_2011_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_2012_A1">
+              <p>N + 1</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2013_A2">
+              <p>N</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2013_A3">
+              <p>N - 1</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2014_A4">
+              <p>1</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2015_A5">
+              <p>2</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2016_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2017_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2018_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2019_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2020_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2010_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;A vertex with an edge to itself is a cycle.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_2021" title="634254" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2021_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2024_A4</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Read the following method skeleton and choose the best expression to fill in the blank on line 8 so that the method will behave correctly:</p>
+          <pre>
+/**
+* Takes a string reference and counts the number of times
+* the character 'A' or 'a' appears in the string object.
+* @param aString String reference to object containing chars.
+* @precondition aString is not null (you may assume this is true).
+* @return The number of times 'A' or 'a' appears in the string.
+*/
+public static int countAs(String aString) // line 1
+{
+int counter = __________; // line 2
+int totalA = 0; // line 3
+while (counter &lt; __________) // line 4
+{
+if ( __________.equals("A") ) // line 5
+{
+totalA = totalA + __________; // line 6
+}
+counter++; // line 7
+}
+return __________; // line 8
+}
+          </pre>
+          <qti-choice-interaction responseIdentifier="QUE_2021_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_2022_A1">
+              <p>counter</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2023_A2">
+              <p>true</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2023_A3">
+              <p>false</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2024_A4">
+              <p>totalA</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2025_A5">
+              <p>aString</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2026_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2027_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2028_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2029_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2030_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2020_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;The return type of the method is int, so an integer return value must be provided. Since counter is used as a loop index, it will always end up being the total number of characters in the given string. The variable totalA is used as an accumulator that is incremented each time a letter A is found in the string, so it is the choice that will provide the correct return value for the method.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+    </qti-assessment-section>
+  </qti-test-part>
+</qti-assessment-test>

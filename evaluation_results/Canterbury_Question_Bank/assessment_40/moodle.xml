@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>633259</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[When is an adjacency list a good choice for implementing a graph?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>With adjacency lists are used, each vertex stores its own list of vertices it's connected to. When a graph contains few edges, these lists will be very short and will likely consume less memory than the adjacency matrix.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[When the graph is undirected.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is When a graph has few edges.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[When the graph is nearly complete.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is When a graph has few edges.
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[When a graph has few edges.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[When the graph contains no cycles.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is When a graph has few edges.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[When the graph is connected.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is When a graph has few edges.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is When a graph has few edges.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is When a graph has few edges.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is When a graph has few edges.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is When a graph has few edges.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is When a graph has few edges.
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>633260</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[When is an adjacency matrix a good choice for implementing a graph?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The adjacency matrix will compactly and efficiently store edges when it contains little wasted space. In a complete graph, each vertex shares an edge with each other vertex, meaning all elements in the adjacency matrix will be used.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[When the graph is undirected.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is When the graph is nearly complete.
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[When the graph is nearly complete.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[When a graph has few edges.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is When the graph is nearly complete.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[When the graph contains no cycles.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is When the graph is nearly complete.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[When the graph is connected.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is When the graph is nearly complete.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is When the graph is nearly complete.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is When the graph is nearly complete.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is When the graph is nearly complete.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is When the graph is nearly complete.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is When the graph is nearly complete.
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>634147</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[What is true about the pivot in quicksort?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>As the pivot will be to the right of all smaller elements and to the left of all larger elements, it is in the same position it will be when the array is sorted.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[Before partitioning, it is always the smallest element in the list]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is After partitioning, the pivot will never move again
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[After partitioning, the pivot will always be in the centre of the list]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is After partitioning, the pivot will never move again
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[After partitioning, the pivot will never move again]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[A random choice of pivot is always the optimal choice, regardless of input]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is After partitioning, the pivot will never move again
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is After partitioning, the pivot will never move again
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is After partitioning, the pivot will never move again
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is After partitioning, the pivot will never move again
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is After partitioning, the pivot will never move again
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is After partitioning, the pivot will never move again
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+</quiz>

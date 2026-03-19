@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>633554</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[What terminates a failed linear probe in a full hashtable?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A null entry will not appear in a full hashtable. Seeing the end of the array isn't correct, since we need to examine all elements, including those that appear before our original hash index. A node with a non-matching key is what started our probe in the first place. The purpose of leaving a deleted node in the table is so that probing may proceed past it. Revisiting the original hash index means we've looked at every entry and determined the item doesn't appear in the table.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[a. The end of the array]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is e. Revisiting the original hash index
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[b. A deleted node]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is e. Revisiting the original hash index
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[c. A null entry]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is e. Revisiting the original hash index
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[d. A node with a non-matching key]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is e. Revisiting the original hash index
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[e. Revisiting the original hash index]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[f. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is e. Revisiting the original hash index
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[g. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is e. Revisiting the original hash index
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[h. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is e. Revisiting the original hash index
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[i. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is e. Revisiting the original hash index
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[j. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is e. Revisiting the original hash index
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>632474</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Identify the bug in the following Java code (if any):
+      <pre>public boolean search(T item,ListADT<T> list){ // 1
+if (list == null) // 2
+return false; // 3
+else if (list.first()==item) // 4
+return true; // 5
+else // 6
+return this.search(item, list.rest()); // 7
+} // 8</pre>
+                                   
+                                 
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>For a recursive solution to a problem, you need three things: (1) a base case (where the problem can be solved without recursion) (2) a self-similar problem (one that contains similar problem(s) to itself) (3) a way of making the problem smaller so you get closer to the base case. Here (2) is satisfied -- lists contain smaller lists. (1) is satisfied by lines 2-5 of the method. And (3) is satisfied because line 7's recursive call takes the rest of the list as a parameter, rather than the whole list.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[a. There is no base case]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. There are no bugs
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[b. The problem is not self-similar]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. There are no bugs
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[c. The problem does not get smaller]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. There are no bugs
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[d. There are no bugs]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[e. None of the above]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. There are no bugs
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[f. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. There are no bugs
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[g. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. There are no bugs
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[h. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. There are no bugs
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[i. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. There are no bugs
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[j. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. There are no bugs
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>634918</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Suppose QueueADT is implemented using a singly linked list. What is the lowest Big-Oh time complexity that can be achieved for an enqueue method?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>If you keep a pointer to the last element of the queue, then the enqueue method just needs a fixed number of statements, which are the same independent of the size of the queue.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+
+
+    <answer fraction="100">
+      <text><![CDATA[a. O(1)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[b. O(log2 n)]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is a. O(1)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[c. O(n)]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is a. O(1)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[d. O(n2)]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is a. O(1)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[e. none of the above]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is a. O(1)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[f. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is a. O(1)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[g. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is a. O(1)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[h. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is a. O(1)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[i. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is a. O(1)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[j. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is a. O(1)
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+</quiz>

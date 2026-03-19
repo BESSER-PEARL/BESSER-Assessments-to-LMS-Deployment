@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>632876</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[We say indexing is fast if it's done in O(1) time, searching is fast if done in O(lg N) time, and inserting and deleting are fast if done in O(1) time. Compared to other data structures, unsorted arrays offer:
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Unsorted arrays can be indexed in constant time (which is fast), searched in O(N) time (which is not as good as O(lg N)), and restructured in O(N) time (which is not as good as O(1) time).</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[a. slow indexing, slow search, slow insertions and deletions.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is c. fast indexing, slow search, slow insertions and deletions.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[b. fast indexing, fast search, slow insertions and deletions.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is c. fast indexing, slow search, slow insertions and deletions.
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[c. fast indexing, slow search, slow insertions and deletions.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[d. slow indexing, slow search, fast insertions and deletions.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is c. fast indexing, slow search, slow insertions and deletions.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[e. slow indexing, fast search, fast insertions and deletions.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is c. fast indexing, slow search, slow insertions and deletions.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[f. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is c. fast indexing, slow search, slow insertions and deletions.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[g. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is c. fast indexing, slow search, slow insertions and deletions.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[h. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is c. fast indexing, slow search, slow insertions and deletions.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[i. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is c. fast indexing, slow search, slow insertions and deletions.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[j. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is c. fast indexing, slow search, slow insertions and deletions.
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>632218</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[An example of something that could be implemented using a Stack is:
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Anytime you're solving a problem where you're adding and removing data and you always need to remove the item that was added most recently is suited to a Stack. This is called a last-in-first-out property, or LIFO. Back buttons, the undo operation, and postfix calculators all have the last-in-first-out property.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[a. The undo operation in Word]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. All of the above
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[b. The back button in a web browser]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. All of the above
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[c. A postfix calculator]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. All of the above
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[d. All of the above]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[e. Items (A) and (B) only]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. All of the above
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[f. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. All of the above
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[g. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. All of the above
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[h. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. All of the above
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[i. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. All of the above
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[j. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. All of the above
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>634933</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[One of the things in Java that allows us to use polymorphism is that the declared type and actual type of a variable may be different. In Java, the actual type of a parameter or variables value can be any concrete class that is
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The rule of thumb is that the declared type is the same or more abstract than the actual type. If the declared type is a class, the things that are equally or less abstract are its descendants -- a subclass specializes a class. If declared type is an interface, it is an abstraction of any class that implements it, or by the relationship between classes and its descendants, any class that is a subclass of something that implements it. Java wants a guarantee that the actual type will have the declared type's methods. That can be via inheritance or implementing an interface, or a combination of the two.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[a. the same as the declared type, or any subclass of the declared type (if the declared type is a class)]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. A, B, and C above.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[b. any class that implements the declared type (if the declared type is an interface)]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. A, B, and C above.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[c. any subclass of a class that implements the declared type (if the declared type is an interface)]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. A, B, and C above.
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[d. A, B, and C above.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[e. A and B above, but not C]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. A, B, and C above.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[f. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. A, B, and C above.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[g. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. A, B, and C above.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[h. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. A, B, and C above.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[i. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. A, B, and C above.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[j. "]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is d. A, B, and C above.
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+</quiz>

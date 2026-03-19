@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qti-assessment-test xmlns="http://www.imsglobal.org/xsd/imsqti_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_v3p0.xsd" identifier="output" title="output">
+  <qti-test-part identifier="testPart-1" navigationMode="nonlinear" submissionMode="individual">
+    <qti-assessment-section identifier="section-1" title="Converted Items" visible="true">
+      <qti-assessment-item identifier="QUE_617507" title="617507" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_617507_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_617507_A2</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>How many objects are created in the following declaration? String[] names = new String[10];</p>
+          <qti-choice-interaction responseIdentifier="QUE_617507_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_617507_A1">
+              <p>0</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_617507_A2">
+              <p>1</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_617507_A3">
+              <p>10</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_617507_A4">
+              <p>11</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_617507_A5">
+              <p>None of the above</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_617507_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_617507_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_617507_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_617507_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_617507_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_617507_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;None of the above&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_632880" title="632880" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_632880_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_632880_A4</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>We say indexing is fast if it's done in O(1) time, searching is fast if done in O(lg N) time, and inserting and deleting are fast if done in O(1) time. Compared to other data structures, unsorted linked lists offer:</p>
+          <qti-choice-interaction responseIdentifier="QUE_632880_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_632880_A1">
+              <p>slow indexing, slow search, slow insertions and deletions.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632880_A2">
+              <p>fast indexing, fast search, slow insertions and deletions.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632880_A3">
+              <p>fast indexing, slow search, slow insertions and deletions.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632880_A4">
+              <p>slow indexing, slow search, fast insertions and deletions.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632880_A5">
+              <p>slow indexing, fast search, fast insertions and deletions.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632880_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632880_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632880_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632880_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632880_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_632880_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;Linked lists do not support fast indexing. To get at element i, one must traverse the list i steps. Slow indexing makes for slow searching, as the binary search relies upon fast indexing to retrieve the middle element. Insertions and deletions, on the other hand, can be done in constant time, as only one or two neighboring links are affected.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_634930" title="634930" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_634930_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_634930_A1</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Consider the following code snippet that copies elements (pixels) from one 2-d array (called pict), with maximum dimensions of maxWidth and maxHeight into another 2-d array called canvas. canvas = [][] for row in range (0, maxHeight): for col in range (0, maxWidth): origPixel = pict[col][row] canvas[width-1-col][row = origPixel If one were to display canvas, how would it compare to the orignal picture (as represented by pict)?</p>
+          <qti-choice-interaction responseIdentifier="QUE_634930_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_634930_A1">
+              <p>Rotated 180 degrees around the vertical center line/column.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634930_A2">
+              <p>Rotated 180 degrees around the horizontal center line/row.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634930_A3">
+              <p>Rotated left 90 degrees.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634930_A4">
+              <p>Rotated right 90 degrees.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634930_A5">
+              <p>Rotated 180 degrees.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634930_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634930_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634930_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634930_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634930_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_634930_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;Each pixel remains on the same row (line) that it originally was on. For any given row, the leftmost pixel swaps positions with the rightmost. The second pixel in a row swaps positions with the second last pixel in that row, etc. Hence, the picture is rotated across the vertical center line.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+    </qti-assessment-section>
+  </qti-test-part>
+</qti-assessment-test>

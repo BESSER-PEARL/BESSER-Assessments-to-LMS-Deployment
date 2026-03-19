@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qti-assessment-test xmlns="http://www.imsglobal.org/xsd/imsqti_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_v3p0.xsd" identifier="TEST_0001" title="Converted PDF Items">
+  <qti-test-part identifier="testPart-1" navigationMode="nonlinear" submissionMode="individual">
+    <qti-assessment-section identifier="section-1" title="Converted Items" visible="true">
+      <qti-assessment-item identifier="QUE_633397" title="633397" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_633397_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_633397_A4</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Suppose you try to perform a binary search on the unsorted array {1, 4, 3, 7, 15, 9, 24}. Which element will not be found when you try searching for it?</p>
+          <qti-choice-interaction responseIdentifier="QUE_633397_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_633397_A1">
+              <p>7</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633397_A2">
+              <p>1</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633397_A3">
+              <p>9</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633397_A4">
+              <p>15</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633397_A5">
+              <p>24</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633397_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633397_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633397_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633397_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633397_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_633397_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;The answer is 15. The first check will look at 7. 15 is greater than 7, so we search to its right. The second check will look at 9. 15 is greater than 9, so we search to its right. The third check will look at 24. 15 is less than 24, so we look to its left. However, our range has just been inverted and our searching stops, not having found 15.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_634167" title="634167" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_634167_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_634167_A2</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Fill in the single missing line of code: int p, *r, **q; p = 27; r = &amp;p; // MISSING LINE printf("The value is %d", **q); // prints 27.</p>
+          <qti-choice-interaction responseIdentifier="QUE_634167_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_634167_A1">
+              <p>*q = *r;</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634167_A2">
+              <p>q = &amp;r;</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634167_A3">
+              <p>**q = p;</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634167_A4">
+              <p>q = &amp;&amp;p;</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634167_A5">
+              <p>*q = *p;</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634167_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634167_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634167_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634167_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634167_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_634167_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;B gets q to point to r, which points to p.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_632105" title="632105" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_632105_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_632105_A2</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>What would be the performance of removeMin and insert methods in a priority queue if it is implemented by a sorted list?</p>
+          <qti-choice-interaction responseIdentifier="QUE_632105_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_632105_A1">
+              <p>O(1) , O(1)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632105_A2">
+              <p>O(1) , O(n)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632105_A3">
+              <p>O(n) , O(1)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632105_A4">
+              <p>O(n) , O(n)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632105_A5">
+              <p></p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632105_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632105_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632105_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632105_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632105_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_632105_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;O(n) , O(1)&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+    </qti-assessment-section>
+  </qti-test-part>
+</qti-assessment-test>

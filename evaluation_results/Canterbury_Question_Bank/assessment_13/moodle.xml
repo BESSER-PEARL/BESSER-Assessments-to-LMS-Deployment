@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>632075</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Consider the following short program, which does not meet all institutional coding standards: void vCodeString(char szText[ ]); /* First line */ #include <stdio.h> #include <string.h> #define MAX_LEN 12 int main(void) { char szData[MAX_LEN]; printf("Enter some text to code: "); scanf("%s", szData); vCodeString(szData); /* Line 8 */ printf("Coded string is %s\n", szData); } void vCodeString(char szText[ ]) { int i = -1; while(szText[++i]) { szText[i] += (char)2; } } I would like to combine lines 8 and 9 into printf("Coded string is %s\n", vCodeString(szData)); Unfortunately, this gives me a syntax error. Why?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The printf function cannot take as a parameter a function which does not return a value</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[The %s should be replaced by %c.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is vCodeString does not return a value.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[The parameter to vCodeString should be szText]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is vCodeString does not return a value.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[The parameter to vCodeString should be shown as szData[ ].]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is vCodeString does not return a value.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[printf can only match %s to a variable, not to a function.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is vCodeString does not return a value.
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[vCodeString does not return a value.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is vCodeString does not return a value.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is vCodeString does not return a value.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is vCodeString does not return a value.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is vCodeString does not return a value.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is vCodeString does not return a value.
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>629645</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Suppose you are writing a Java program to be used to manage information about the inventory in a store. The stores products include pagers, cell phones, and cameras. The cell phones are used for both communication and taking pictures, the pagers are only used for communication, and the cameras are used for taking pictures. Assume that a Product class has been defined. Which of the following is the best way to represent the remaining data?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Answer A is the easiest to rule out -- it gives CellPhone two superclasses, which is not permitted in Java. C is not the best choice because it doesn't capture the relationships among the various items. D captures some of the relationships but not all (for example, it's missing the relationship between PictureTaker and Camera). Answers B and E are very similar -- they focus on the question of which items should be modeled by interfaces and which by classes. B is a better choice for several reasons. Pagers, phones, and cameras all have both behaviors and data -- for example, the list of phone messages for a phone and the ability to take pictures for both phones and cameras -- while PictureTaker and Communicator correspond to behaviors. In addition, defining PictureTaker as an interface allows us to capture the fact that a cell phone is a product, a picture taker, and a communicator.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[Define two subclasses of the Product class: Communicator and PictureTaker. Define two subclasses of the Communicator class: Pager and CellPhone; and define two subclasses of the PictureTaker class: CellPhone and Camera.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Define three subclasses of the Product class: Pager, CellPhone and Camera. Also define two interfaces: Communicator and PictureTaker. Define the Pager and CellPhone classes to implement the Communicator interface, and define the CellPhone and Camera classes to implement the PictureTaker interface.
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[Define three subclasses of the Product class: Pager, CellPhone and Camera. Also define two interfaces: Communicator and PictureTaker. Define the Pager and CellPhone classes to implement the Communicator interface, and define the CellPhone and Camera classes to implement the PictureTaker interface.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Define five new classes, not related to the Product class: Pager, CellPhone, Camera, Communicator, and PictureTaker.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Define three subclasses of the Product class: Pager, CellPhone and Camera. Also define two interfaces: Communicator and PictureTaker. Define the Pager and CellPhone classes to implement the Communicator interface, and define the CellPhone and Camera classes to implement the PictureTaker interface.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Define five subclasses of the Product class: Pager, CellPhone, Camera, Communicator, and PictureTaker.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Define three subclasses of the Product class: Pager, CellPhone and Camera. Also define two interfaces: Communicator and PictureTaker. Define the Pager and CellPhone classes to implement the Communicator interface, and define the CellPhone and Camera classes to implement the PictureTaker interface.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Define two subclasses of the Product class: Communicator and PictureTaker. Also define three interfaces: Pager, CellPhone, and Camera. Define the Communicator class to implement the Pager and CellPhone interfaces, and define the PictureTaker class to implement the CellPhone and Camera interfaces.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Define three subclasses of the Product class: Pager, CellPhone and Camera. Also define two interfaces: Communicator and PictureTaker. Define the Pager and CellPhone classes to implement the Communicator interface, and define the CellPhone and Camera classes to implement the PictureTaker interface.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Define three subclasses of the Product class: Pager, CellPhone and Camera. Also define two interfaces: Communicator and PictureTaker. Define the Pager and CellPhone classes to implement the Communicator interface, and define the CellPhone and Camera classes to implement the PictureTaker interface.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Define three subclasses of the Product class: Pager, CellPhone and Camera. Also define two interfaces: Communicator and PictureTaker. Define the Pager and CellPhone classes to implement the Communicator interface, and define the CellPhone and Camera classes to implement the PictureTaker interface.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Define three subclasses of the Product class: Pager, CellPhone and Camera. Also define two interfaces: Communicator and PictureTaker. Define the Pager and CellPhone classes to implement the Communicator interface, and define the CellPhone and Camera classes to implement the PictureTaker interface.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Define three subclasses of the Product class: Pager, CellPhone and Camera. Also define two interfaces: Communicator and PictureTaker. Define the Pager and CellPhone classes to implement the Communicator interface, and define the CellPhone and Camera classes to implement the PictureTaker interface.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Define three subclasses of the Product class: Pager, CellPhone and Camera. Also define two interfaces: Communicator and PictureTaker. Define the Pager and CellPhone classes to implement the Communicator interface, and define the CellPhone and Camera classes to implement the PictureTaker interface.
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>635015</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[The binary value 11011101 when coverted into a decimal value from two's complement notation is:
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Conversion of negative numbers in two's complement into decimal requires a bit flip, followed by the binary addition of 1. This value is then interpreted as an unsigned binary value.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+
+
+    <answer fraction="100">
+      <text><![CDATA[-35]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[35]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is -35
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[221]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is -35
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[-221]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is -35
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[-33]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is -35
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is -35
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is -35
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is -35
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is -35
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is -35
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+</quiz>

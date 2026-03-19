@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>633228</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[What is printed when the following program runs?
+      <pre>public class Main {
+    public static boolean getTrue() {
+        System.out.print("T");
+        return true;
+    }
+    public static boolean getFalse() {
+        System.out.print("F");
+        return false;
+    }
+    public static void main(String[] args) {
+        getTrue() || getFalse();
+    }
+}</pre>
+                                   
+                                 
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[If the first operand for || is true, as is the case here, the second is not evaluated.]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[TF]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is T
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[F]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is T
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[T]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[TT]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is T
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Nothing is printed]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is T
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>633895</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Kexin is hashing the values 9, 45, 22, 48, 38 into a hash table of size 20. Which hash function will give her no collisions?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[A will collide on the 48/38; B will collide with 45/48; C will collide with 9/45.]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[h(k) = k % 10]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is h(k) = (k % 10) - (k / 10)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[h(k) = k / 10]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is h(k) = (k % 10) - (k / 10)
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[h(k) = (k % 10) + (k / 10)]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is h(k) = (k % 10) - (k / 10)
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[h(k) = (k % 10) - (k / 10)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>633618</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[True or False: Breadth-first search (BFS) and Depth-first search (DFS) visit nodes of a graph in the same order only if the graph looks like a linear chain, or linked list, and the traversal starts at one of the ends.
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[We could add any number of nodes to node B, and visit nodes in the same order starting at node A and node B.]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[True]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is False
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[False]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+</quiz>

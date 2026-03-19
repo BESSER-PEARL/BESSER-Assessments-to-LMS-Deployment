@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>633573</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Suppose you try to perform a binary search on a 5-element array sorted in the reverse order of what the binary search algorithm expects. How many of the items in this array will be found if they are searched for?]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Only the middle element will be found. The remaining elements will not be contained in the subranges that we narrow our search to.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[5]]></text>
+      <feedback format="html"><text><![CDATA[
+           Incorrect. The correct answer is 1]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[0]]></text>
+      <feedback format="html"><text><![CDATA[
+           Incorrect. The correct answer is 1]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[1]]></text>
+      <feedback format="html"><text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[2]]></text>
+      <feedback format="html"><text><![CDATA[Incorrect. The correct answer is 1]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[3]]></text>
+      <feedback format="html"><text><![CDATA[Incorrect. The correct answer is 1]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html"><text><![CDATA[Incorrect. The correct answer is 1]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html"><text><![CDATA[Incorrect. The correct answer is 1]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html"><text><![CDATA[Incorrect. The correct answer is 1]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html"><text><![CDATA[Incorrect. The correct answer is 1]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html"><text><![CDATA[Incorrect. The correct answer is 1]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+
+
+
+
+
+  <question type="multichoice">
+    <name>
+      <text>633246</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[For a graph with N nodes, what's the minimum number of edges it must have for it to contain a cycle?
+
+
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A vertex with an edge to itself is a cycle.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <defaultgrade>1</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[N + 1]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[N]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[N - 1]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[1]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[2]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 1
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+
+
+
+
+
+  <question type="multichoice">
+    <name>
+      <text>632805</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Which data structure used to implement Set yields the worst performance for Set.contains?
+
+
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Implementing Set.contains involves a search of the data structure. A binary search tree and a sorted array are searched in O(lg n) time, and a hashtable in O(1), assuming a sane hash function. A linked list is searched in O(n) time.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>1</defaultgrade>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[Binary search tree]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Linked list
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[Linked list]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Sorted array]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Linked list
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Hashtable]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Linked list
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Linked list
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Linked list
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Linked list
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Linked list
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Linked list
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+</quiz>

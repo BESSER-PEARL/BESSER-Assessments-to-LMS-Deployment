@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qti-assessment-test xmlns="http://www.imsglobal.org/xsd/imsqti_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_v3p0.xsd" identifier="output" title="output">
+  <qti-test-part identifier="testPart-1" navigationMode="nonlinear" submissionMode="individual">
+    <qti-assessment-section identifier="section-1" title="Converted Items" visible="true">
+      <qti-assessment-item identifier="QUE_633574" title="633574" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_633574_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_633574_A3</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Suppose you try to perform a binary search on the unsorted array {1, 4, 3, 7, 15, 9, 24}. How many of the items in this array will be found if they are searched for?</p>
+          <qti-choice-interaction responseIdentifier="QUE_633574_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_633574_A1">
+              <p>3</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633574_A2">
+              <p>4</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633574_A3">
+              <p>5</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633574_A4">
+              <p>6</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633574_A5">
+              <p>0</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633574_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633574_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633574_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633574_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633574_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_633574_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;7, 4, 9, 24, and 1 will be found if searched for. 15 and 3 will not, since they lie to the wrong side of a subrange's midpoint.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_633668" title="633668" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_633668_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_633668_A2</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Consider the following class for a Ninja:
+public class Ninja {
+private int honor;
+public Ninja(int h) {
+this.honor=h;
+}
+}
+Suppose we instantiate two Ninjas like this:
+Ninja n1=new Ninja(50);
+Ninja n2=new Ninja(50);
+Is the following statement True, False, or It Depends (i.e. depends on a factor external to this question)
+n1.equals(n2)</p>
+          <qti-choice-interaction responseIdentifier="QUE_633668_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_633668_A1">
+              <p>True</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633668_A2">
+              <p>False</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633668_A3">
+              <p>It depends</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633668_A4"/>
+            <qti-simple-choice identifier="QUE_633668_A5"/>
+            <qti-simple-choice identifier="QUE_633668_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633668_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633668_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633668_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633668_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_633668_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;The equals() method has not been overloaded, so it's using the default implementation of equals() in Java, which falls back on ==.
+This is sort of a trick question, but it's a reasonably common error pattern in CS-2.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_634432" title="634432" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_634432_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_634432_A2</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Dummy question: Bloom tags.</p>
+          <qti-choice-interaction responseIdentifier="QUE_634432_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_634432_A1">
+              <p>blaha</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634432_A2">
+              <p>blaha</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634432_A3">
+              <p>blaha</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634432_A4"/>
+            <qti-simple-choice identifier="QUE_634432_A5"/>
+            <qti-simple-choice identifier="QUE_634432_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634432_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634432_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634432_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634432_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_634432_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;This question has a tag for each one of the Bloom tags so we can see how many questions there are of each. (Note: delimiters are included in case of errors).&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+    </qti-assessment-section>
+  </qti-test-part>
+</qti-assessment-test>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qti-assessment-test xmlns="http://www.imsglobal.org/xsd/imsqti_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_v3p0.xsd" identifier="output" title="output">
+  <qti-test-part identifier="testPart-1" navigationMode="nonlinear" submissionMode="individual">
+    <qti-assessment-section identifier="section-1" title="Converted Items" visible="true">
+      <qti-assessment-item identifier="QUE_630945" title="630945" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_630945_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_630945_A1</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Which of the following abstract datatypes would be the best choice for part of the implementation of the back button on a Web browser?</p>
+          <qti-choice-interaction responseIdentifier="QUE_630945_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_630945_A1">
+              <p>a Stack</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_630945_A2">
+              <p>a Queue</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_630945_A3">
+              <p>a Priority Queue</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_630945_A4">
+              <p>a List</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_630945_A5">
+              <p>a Dictionary</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_630945_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_630945_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_630945_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_630945_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_630945_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_630945_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;When you click on the back button, you should see the last page you visited, so the datatype that stores the previously visited webpages must be last-in-first-out. Of the abstract datatypes listed, Stack is the only one that is last-in-first-out.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_630947" title="630947" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_630947_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_630947_A4</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Which of the following abstract datatypes would be the best choice for part of the implementation of a program modeling the arrival of patients to an emergency room in a hospital?</p>
+          <qti-choice-interaction responseIdentifier="QUE_630947_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_630947_A1">
+              <p>a Stack</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_630947_A2">
+              <p>a Queue</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_630947_A3">
+              <p>A List</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_630947_A4">
+              <p>a PriorityQueue</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_630947_A5">
+              <p>a Dictionary</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_630947_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_630947_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_630947_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_630947_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_630947_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_630947_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;In an emergency room, you want to serve patients in the order of how urgent their condition is, and if two patients have equally urgent conditions, in the order that they arrived. A PriorityQueue is the only abstract datatype listed that meets both of these conditions.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_633266" title="633266" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_633266_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_633266_A4</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Two algorithms accomplish the same task on a collection of N items. Algorithm A performs N/2 operations. Algorithm B performs N log N operations. Under what conditions does algorithm A offer better performance?</p>
+          <qti-choice-interaction responseIdentifier="QUE_633266_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_633266_A1">
+              <p>N &lt;= 4</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633266_A2">
+              <p>N &gt; 8</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633266_A3">
+              <p>N &gt; 2</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633266_A4">
+              <p>For all N.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633266_A5">
+              <p>For no N.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633266_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633266_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633266_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633266_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633266_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_633266_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;For all legal collection sizes, N/2 &lt; N log N.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+    </qti-assessment-section>
+  </qti-test-part>
+</qti-assessment-test>

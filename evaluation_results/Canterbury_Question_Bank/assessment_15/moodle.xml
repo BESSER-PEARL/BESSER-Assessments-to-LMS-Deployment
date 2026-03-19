@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>634906</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Two algorithms accomplish the same task on a collection of N items. Algorithm A performs (N/2)3 operations. Algorithm B performs N2 operations. Under what conditions does algorithm A offer strictly better performance?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>For N <= 7, (N/2)3 < N2.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+
+
+    <answer fraction="100">
+      <text><![CDATA[N <= 7]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[N <= 8]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is N <= 7
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[N > 8]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is N <= 7
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[For all N]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is N <= 7
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[For no N]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is N <= 7
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is N <= 7
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is N <= 7
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is N <= 7
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is N <= 7
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is N <= 7
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>629971</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Suppose you are defining a Java ProductItem class to store information about the inventory in a store, and you want to give the class an instance variable for the number of those items currently in stock. Choose the best datatype for modeling this number:
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A and B are wrong because you want to model an integer, not a floating point number. E is wrong because you probably want to use this number for adding and subtracting, not just for display. D is less good than C, because the built-in operations on ints will most likely be sufficient for the purposes of this variable.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[double]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is int
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[float]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is int
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[int]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[a user-defined NumberInStock class]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is int
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[String]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is int
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is int
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is int
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is int
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is int
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is int
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>633604</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[What wil the following code print, assuming that N is a positive integer? int count=0; for (int i=0; i<N; i++) { if (i % 2 == 0) { count++; } } System.out.println(count);
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>If N is even, for example N=12, N/2 works. However, suppose N is odd, for example N=13. Here the result should be 7, which is (N+1)/2. However, for N=12, (N+1)/2 also works. (N+1)/2 works for all positive integer.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[N]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is (N+1)/2
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[N/2]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is (N+1)/2
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[N/2+1]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is (N+1)/2
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[(N+1)/2]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[0 (i.e. the loop body never executes)]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is (N+1)/2
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is (N+1)/2
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is (N+1)/2
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is (N+1)/2
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is (N+1)/2
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is (N+1)/2
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+</quiz>

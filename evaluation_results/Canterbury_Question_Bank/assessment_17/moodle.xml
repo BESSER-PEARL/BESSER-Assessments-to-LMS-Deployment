@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>632810</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Which of the following assertions is incorrect?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Basically, a statement in Python is a special kind of function that doesn't return a value. Statements are things like print (in Python 2.x but not Python 3) and import. I think this is not a great question to put on a CS-1 exam beacuse it relies on terminology (statement, expression, side-effect) that doesn't really mean much until CS-2 or later.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+
+
+    <answer fraction="100">
+      <text><![CDATA[A Python statement may return a value]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[A Python expression may return a value]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Python statement may return a value
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[A Python statement may produce a side effect]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Python statement may return a value
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[A Python expression may produce a side effect]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Python statement may return a value
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[None of the above (i.e., all are correct)]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Python statement may return a value
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Python statement may return a value
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Python statement may return a value
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Python statement may return a value
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Python statement may return a value
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is A Python statement may return a value
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>633882</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Barack Obama wants to know the most efficient way to sort a million 32-bit integers. He knows its not bubble sort. What is?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Radix sort will be O(n) and works nicely on integers; at such a large scale it will outperform the O(nlgn) sorting algorithms. (question is a reference to http://www.youtube.com/watch?v=k4RRi_ntQc8 )</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[Heapsort]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Radix sort
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Insertion sort]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Radix sort
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Mergesort]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Radix sort
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[Radix sort]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Quicksort]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Radix sort
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Radix sort
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Radix sort
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Radix sort
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Radix sort
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Radix sort
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>634189</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[What is not a property of a max-heap?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A max-heap need not be sorted.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[It is complete]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Its values are sorted in when printed in level order
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[A nodes value is less than or equal to that of its parent]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Its values are sorted in when printed in level order
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[Its values are sorted in when printed in level order]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Its root is the maximum element in the tree]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Its values are sorted in when printed in level order
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Its values are sorted in when printed in level order
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Its values are sorted in when printed in level order
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Its values are sorted in when printed in level order
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Its values are sorted in when printed in level order
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Its values are sorted in when printed in level order
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+</quiz>

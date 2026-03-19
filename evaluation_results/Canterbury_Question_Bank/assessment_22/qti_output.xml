@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qti-assessment-test xmlns="http://www.imsglobal.org/xsd/imsqti_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_v3p0.xsd" identifier="output" title="output">
+  <qti-test-part identifier="testPart-1" navigationMode="nonlinear" submissionMode="individual">
+    <qti-assessment-section identifier="section-1" title="Converted Items" visible="true">
+      <qti-assessment-item identifier="QUE_2001" title="631541" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2001_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2001_A4</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>How many number will be printed if n = 5? public static void cSeries(int n) { System.out.print(n + " "); if (n == 1) return; if (n % 2 == 0) cSeries(n / 2); else cSeries(3*n + 1); }</p>
+          <qti-choice-interaction responseIdentifier="QUE_2001_RL">
+            <qti-simple-choice identifier="QUE_2001_A1">
+              <p>3</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A2">
+              <p>4</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A3">
+              <p>5</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A4">
+              <p>6</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A5">
+              <p></p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A9">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2001_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;5&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_2002" title="632300" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2002_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2002_A4</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>For Club Scripting, to be a member a person must be aged 15 or older, but less than 50. What values would you use to boundary test a script designed to check if a person was a suitable age to join?</p>
+          <qti-choice-interaction responseIdentifier="QUE_2002_RL">
+            <qti-simple-choice identifier="QUE_2002_A1">
+              <p>14, 15, 50, 51</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A2">
+              <p>15, 16, 50, 51</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A3">
+              <p>15, 16, 49, 50</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A4">
+              <p>14, 15, 49, 50</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A5">
+              <p>13, 15, 49, 52</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2002_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;The boundary values are those at the boundary and those respectively one before and one past the boundary&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_2003" title="634252" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2003_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2003_A5</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Read the following method skeleton and choose the best expression to fill in the blank on line 5 so that the method will behave correctly: /** * Takes a string reference and counts the number of times * the character 'A' or 'a' appears in the string object. * @param aString String reference to object containing chars. * @precondition aString is not null (you may assume this is true). * @return The number of times 'A' or 'a' appears in the string. */ public static int countAs(String aString) // line 1 { int counter = __________; // line 2 int totalA = 0; // line 3 while (counter &lt; __________) // line 4 { if ( __________.equals("A") ) // line 5 { totalA = totalA + __________; // line 6 } counter++; // line 7 } return __________; // line 8 }</p>
+          <qti-choice-interaction responseIdentifier="QUE_2003_RL">
+            <qti-simple-choice identifier="QUE_2003_A1">
+              <p>aString.charAt(counter)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A2">
+              <p>aString.substring(counter)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A3">
+              <p>aString.charAt(counter).toUpperCase()</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A4">
+              <p>aString.substring(counter).toUpperCase()</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A5">
+              <p>aString.substring(counter, counter + 1).toUpperCase()</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2003_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;While both charAt() can be used to examine a single char in a string, char is a primitive type without any methods. Since the condition on Line 5 uses the equals() method to compare against another String value, the expression used to fill in the blank must produce a String object, so the substring() method is a better fit. The substring() method takes two parameters--a starting index and an ending index one past the end of the substring--and since the method counts both upper case and lower case A's, the result should be converted to upper case form before testing for equality against "A". Thus, the best answer is aString.substring(counter, counter + 1).toUpperCase().&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+    </qti-assessment-section>
+  </qti-test-part>
+</qti-assessment-test>

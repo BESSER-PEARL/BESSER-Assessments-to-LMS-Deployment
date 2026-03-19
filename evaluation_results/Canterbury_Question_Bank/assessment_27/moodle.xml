@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>634905</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[1.public class FirstApp extends wheels.users.Frame { 2. private wheels.users.Ellipse _ellipse; 3. 4. public FirstApp() { 5. _ellipse = new wheels.users.Ellipse(); 6. } 7. 8. public static void main(String[] args) { 9. FirstApp app = new FirstApp(); 10. } 11.} What does line 2 accomplish (cause to happen)?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Remember that in Java we need to declare variables, and then instantiate them (using new). Line 2 is simply a declaration -- the variable gets instantiated (in line 5) when a FirstApp gets instantiated.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[wheels.users.Ellipse is given _ellipse as an alias]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is _ellipse is declared as a wheels.users.Ellipse
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[An invisible Ellipse is drawn on the screen]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is _ellipse is declared as a wheels.users.Ellipse
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[_ellipse is declared as a wheels.users.Ellipse]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[wheels.users.Ellipse is set to be a private object]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is _ellipse is declared as a wheels.users.Ellipse
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[_ellipse is instantiated as a wheels.users.Ellipse]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is _ellipse is declared as a wheels.users.Ellipse
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is _ellipse is declared as a wheels.users.Ellipse
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is _ellipse is declared as a wheels.users.Ellipse
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is _ellipse is declared as a wheels.users.Ellipse
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is _ellipse is declared as a wheels.users.Ellipse
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is _ellipse is declared as a wheels.users.Ellipse
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>634194</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Nathan is on the run (apparently the US is about to invade Canada). He needs to grab food. Each piece of food around him has a nutritional value, and a weight. He wants to put the most calories in his backpack, but it can only hold up to certain weight. What should he optimize for when deciding which foods to bring?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Greedy approach to fractional knapsack.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[The value of food]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is The value / weight ratio of food
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[The value / weight ratio of food]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[The weight / value ratio of food]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is The value / weight ratio of food
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[The weight of food]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is The value / weight ratio of food
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is The value / weight ratio of food
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is The value / weight ratio of food
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is The value / weight ratio of food
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is The value / weight ratio of food
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is The value / weight ratio of food
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>629973</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Suppose you are defining a Java ProductItem class to store information about the inventory in a store, and you want to give the class an instance variable for the price of that item. Which of the following is the best datatype for the instance variable that models the price?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Arguments can be made for any of these choices (except perhaps "int"). I would give Money an edge, because a user-defined class allows you to write methods to display the value properly, do arithmetic on it, and perhaps convert it to different currencies. But I'm going to tag this as a question with more than one answer.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[double]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is a user-defined Money class
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[float]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is a user-defined Money class
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[int]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is a user-defined Money class
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[String]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is a user-defined Money class
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[a user-defined Money class]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is a user-defined Money class
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is a user-defined Money class
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is a user-defined Money class
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is a user-defined Money class
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is a user-defined Money class
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+</quiz>

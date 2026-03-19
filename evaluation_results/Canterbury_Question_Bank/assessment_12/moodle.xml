@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>633279</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Which of the following makes an appropriate pre-condition for this code?
+          double calculate_percentage(double sum, double n){// calculates and returns a percentage given a sum and a length (n)// <missing pre-condition>// POST: nonereturn (sum / n) * 100;}
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The code will faill if n = 0, as it will divide by 0.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[PRE: sum < 100]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is PRE: n != 0
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[PRE: n != 0]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[PRE: sum != NULL and n != NULL]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is PRE: n != 0
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[PRE: none]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is PRE: n != 0
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[e.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is PRE: n != 0
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is PRE: n != 0
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is PRE: n != 0
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is PRE: n != 0
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is PRE: n != 0
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>635006</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[public BallPanel extends javax.swing.JPanel {
+          private Ball[] _balls;public BallPanel(int numberOfBalls){??????for (int i=0;i<_balls.length;i++)_balls[i] = new Ball();}}We need to add something at line 4 above to avoid an error in line 5. Which of the following line 4 expressions fix the error in line 5?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The problem with line 5 (without adding line 4) is that _balls is declared, but not instantiated as an array, so _balls is null. The code compiles fine (assuming you have a class Ball that has a constructor with no parameters), but will crash at run time if you instantiate a BallPanel. B and D wouldn't help: B would crash at run time for the same reason as 5, and D gives a compile-time error since length is not directly settable for a Java array. A would work, but would have no effect on the problem.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[super();]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is _balls = new Ball[numberOfBalls];
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[_balls.setLength(numberOfBalls);]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is _balls = new Ball[numberOfBalls];
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[_balls = new Ball[numberOfBalls];]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[_balls.length = numberOfBalls;]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is _balls = new Ball[numberOfBalls];
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[B, C, and D all work.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is _balls = new Ball[numberOfBalls];
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is _balls = new Ball[numberOfBalls];
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is _balls = new Ball[numberOfBalls];
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is _balls = new Ball[numberOfBalls];
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is _balls = new Ball[numberOfBalls];
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is _balls = new Ball[numberOfBalls];
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>629623</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Consider writing a program to be used by a farm to keep track of information about the fruits and vegetables they sell. For each sale, they would like to keep track of the type of item (eggplant, tomato, etc.), the quantity sold, the price, and the market at which the sale was made. Which of the following is the best way to represent the information?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Which classes you define depends generally on the needs of the software. It might be good to have Market be a class of its own, with the address of the market, contact information for the organizers, etc. The item type might be modeled with a Product class, with information about the date it was planted, for example. But of the choices given, A is the best. We can rule out choices B, C, D, and E because price and quantity don't need data and associated methods of their own and are most appropriately modeled as fields in the FarmSale class. That leaves A.</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+
+
+    <answer fraction="100">
+      <text><![CDATA[Define one class, FarmSale, with four fields: type, quantity, price, and market.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Define one superclass, FarmSale, with four subclasses: Type, Quantity, Price, and Market.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Define one class, FarmSale, with four fields: type, quantity, price, and market.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Define five unrelated classes: FarmSale, Type, Quantity, Price, and Market.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Define one class, FarmSale, with four fields: type, quantity, price, and market.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Define five classes: FarmSale, Type, Quantity, Price, and Market.. Make Market a subclass of Price, make Price a subclass of Quantity, make Quantity a subclass of Type, and make Type a subclass of FarmSale.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Define one class, FarmSale, with four fields: type, quantity, price, and market.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Define five classes: FarmSale, Type, Quantity, Price, and Market. Make FarmSale a subclass of Type, make Type a subclass of Quantity, make Quantity a subclass of Price, and make Price a subclass of Market.]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Define one class, FarmSale, with four fields: type, quantity, price, and market.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Define one class, FarmSale, with four fields: type, quantity, price, and market.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Define one class, FarmSale, with four fields: type, quantity, price, and market.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Define one class, FarmSale, with four fields: type, quantity, price, and market.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Define one class, FarmSale, with four fields: type, quantity, price, and market.
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Define one class, FarmSale, with four fields: type, quantity, price, and market.
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+</quiz>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+
+
+  <question type="multichoice">
+    <name>
+      <text>First Example</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Of the following hormones, which is produced by the adrenal glands?]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[The correct answer is Epinephrine.]]></text>
+    </generalfeedback>
+
+    <defaultgrade>1</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+
+
+
+    <answer fraction="100">
+      <text><![CDATA[Epinephrine]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Glucagon]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Epinephrine
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Insulin]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Epinephrine
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Oxytocin]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Epinephrine
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+</quiz>

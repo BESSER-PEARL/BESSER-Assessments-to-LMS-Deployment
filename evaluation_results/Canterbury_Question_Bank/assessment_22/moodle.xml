@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>632300</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[For Club Scripting, to be a member a person must be aged 15 or older, but less than 50. What values would you use to boundary test a script designed to check if a person was a suitable age to join?
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>The boundary values are those at the boundary and those respectively one before and one past the boundary</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[14, 15, 50, 51]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 14, 15, 49, 50
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[15, 16, 50, 51]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 14, 15, 49, 50
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[15, 16, 49, 50]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 14, 15, 49, 50
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[14, 15, 49, 50]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[13, 15, 49, 52]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 14, 15, 49, 50
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 14, 15, 49, 50
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 14, 15, 49, 50
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 14, 15, 49, 50
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 14, 15, 49, 50
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 14, 15, 49, 50
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>631541</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[How many number will be printed if n = 5? public static void cSeries(int n) { System.out.print(n + " "); if (n == 1) return; if (n % 2 == 0) cSeries(n / 2); else cSeries(3*n + 1); }
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>5</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[3]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 6
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[4]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 6
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[5]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 6
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[6]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 6
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 6
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 6
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 6
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is 6
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>634252</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[Read the following method skeleton and choose the best expression to fill in the blank on line 5 so that the method will behave correctly: /** * Takes a string reference and counts the number of times * the character 'A' or 'a' appears in the string object. * @param aString String reference to object containing chars. * @precondition aString is not null (you may assume this is true). * @return The number of times 'A' or 'a' appears in the string. */ public static int countAs(String aString) // line 1 { int counter = __________; // line 2 int totalA = 0; // line 3 while (counter < __________) // line 4 { if ( __________.equals("A") ) // line 5 { totalA = totalA + __________; // line 6 } counter++; // line 7 } return __________; // line 8 }
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>While both charAt() can be used to examine a single char in a string, char is a primitive type without any methods. Since the condition on Line 5 uses the equals() method to compare against another String value, the expression used to fill in the blank must produce a String object, so the substring() method is a better fit. The substring() method takes two parameters--a starting index and an ending index one past the end of the substring--and since the method counts both upper case and lower case A's, the result should be converted to upper case form before testing for equality against "A". Thus, the best answer is aString.substring(counter, counter + 1).toUpperCase().</p>]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+       
+    <answer fraction="0">
+      <text><![CDATA[aString.charAt(counter)]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is aString.substring(counter, counter + 1).toUpperCase()
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[aString.substring(counter)]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is aString.substring(counter, counter + 1).toUpperCase()
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[aString.charAt(counter).toUpperCase()]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is aString.substring(counter, counter + 1).toUpperCase()
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[aString.substring(counter).toUpperCase()]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is aString.substring(counter, counter + 1).toUpperCase()
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[aString.substring(counter, counter + 1).toUpperCase()]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is aString.substring(counter, counter + 1).toUpperCase()
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is aString.substring(counter, counter + 1).toUpperCase()
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is aString.substring(counter, counter + 1).toUpperCase()
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is aString.substring(counter, counter + 1).toUpperCase()
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA["]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is aString.substring(counter, counter + 1).toUpperCase()
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+</quiz>

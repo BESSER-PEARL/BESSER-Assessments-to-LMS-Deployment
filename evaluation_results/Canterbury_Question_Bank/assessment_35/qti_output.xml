@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qti-assessment-test xmlns="http://www.imsglobal.org/xsd/imsqti_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_v3p0.xsd" identifier="output" title="output">
+  <qti-test-part identifier="testPart-1" navigationMode="nonlinear" submissionMode="individual">
+    <qti-assessment-section identifier="section-1" title="Converted Items" visible="true">
+      <qti-assessment-item identifier="QUE_2001" title="633895" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2001_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2001_A4</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Kexin is hashing the values 9, 45, 22, 48, 38 into a hash table of size 20. Which hash function will give her no collisions?</p>
+          <qti-choice-interaction responseIdentifier="QUE_2001_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_2001_A1">
+              <p>h(k) = k % 10</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A2">
+              <p>h(k) = k / 10</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A3">
+              <p>h(k) = (k % 10) + (k / 10)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A4">
+              <p>h(k) = (k % 10) - (k / 10)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A5">
+              <p></p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2001_A9">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2001_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;A will collide on the 48/38; B will collide with 45/48; C will collide with 9/45.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_2002" title="633618" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2002_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2002_A2</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>True or False: Breadth-first search (BFS) and Depth-first search (DFS) visit nodes of a graph in the same order only if the graph looks like a linear chain, or linked list, and the traversal starts at one of the ends. For example, BFS and DFS starting at node A are the same for the following graph: A &lt;-&gt; B &lt;-&gt; C</p>
+          <qti-choice-interaction responseIdentifier="QUE_2002_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_2002_A1">
+              <p>True</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A2">
+              <p>False</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A3">
+              <p></p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A4">
+              <p></p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A5">
+              <p></p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2002_A7">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2002_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;We could add any number of nodes to node B, and visit nodes in the same order starting at node A and node B.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_2003" title="634944" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2003_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2003_A1</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>For the Insertion sort algorithm; what is its best case and worst case performance?</p>
+          <qti-choice-interaction responseIdentifier="QUE_2003_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_2003_A1">
+              <p>Best: O(n) Worst: O(n2)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A2">
+              <p>Best: O(n) Worst: O(n)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A3">
+              <p>Best: O(log2 n) Worst: O(n2)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A4">
+              <p>Best: O(n2) Worst: O(n2)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A5">
+              <p>None of the above.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2003_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2003_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;Insertion sort, if given an already sorted list, will still perform O(n) comparisons to ascertain the list is sorted. If the list is &quot;reverse sorted,&quot; then the first pass will require 1 exchange. The second pass will require 2 exchanges, etc. Hence, in the worst case, O(n2) exchanges.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+    </qti-assessment-section>
+  </qti-test-part>
+</qti-assessment-test>

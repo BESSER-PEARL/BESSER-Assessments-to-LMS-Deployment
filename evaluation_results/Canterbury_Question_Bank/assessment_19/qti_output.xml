@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qti-assessment-test xmlns="http://www.imsglobal.org/xsd/imsqti_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_v3p0.xsd" identifier="output" title="output">
+  <qti-test-part identifier="testPart-1" navigationMode="nonlinear" submissionMode="individual">
+    <qti-assessment-section identifier="section-1" title="Converted Items" visible="true">
+      <qti-assessment-item identifier="QUE_632572" title="632572" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_632572_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_632572_A5</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>A chained hash table has an array size of 512. What is the maximum number of entries that can be placed in the table?</p>
+          <qti-choice-interaction responseIdentifier="QUE_632572_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_632572_A1">
+              <p>256</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632572_A2">
+              <p>511</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632572_A3">
+              <p>512</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632572_A4">
+              <p>1024</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632572_A5">
+              <p>There is no maximum.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632572_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632572_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632572_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632572_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632572_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_632572_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;In a hashtable with chaining, each element is assigned to a particular cell in the array (a &quot;bucket&quot;) using the hash function. Each bucket has a pointer to the start of a linked list, and the elements assigned to that bucket are stored in the linked list.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_634253" title="634253" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_634253_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_634253_A2</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Read the following method skeleton and choose the best expression to fill in the blank on line 6 so that the method will behave correctly: /** * Takes a string reference and counts the number of times * the character 'A' or 'a' appears in the string object. * @param aString String reference to object containing chars. * @precondition aString is not null (you may assume this is true). * @return The number of times 'A' or 'a' appears in the string. */ public static int countAs(String aString) // line 1 { int counter = __________; // line 2 int totalA = 0; // line 3 while (counter &lt; __________) // line 4 { if ( __________.equals("A") ) // line 5 { totalA = totalA + __________; // line 6 } counter++; // line 7 } return __________; // line 8 }</p>
+          <qti-choice-interaction responseIdentifier="QUE_634253_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_634253_A1">
+              <p>0</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634253_A2">
+              <p>1</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634253_A3">
+              <p>counter</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634253_A4">
+              <p>aString.length()</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634253_A5">
+              <p>aString.charAt(count)</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634253_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634253_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634253_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634253_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_634253_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_634253_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;The variable totalA is being used as an accumulator to keep track of how many A's have been seen so far as the loop progresses. The if condition inside the loop is intended to detect whether the current character is an &quot;A&quot;, and so the variable totalA should be incremented each time the condition is true. Therefore, the best answer for Line 6 is 1, so that totalA is incremented.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_632766" title="632766" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_632766_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_632766_A2</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>The following code for a method &quot;minVal&quot; contains a logic error on a single line in the method body, on one of the four lines indicated by comments: public static int minVal(int[] y, int first, int last) { /* This method returns the value of the minimum element in the * subsection of the array &quot;y&quot;, starting at position * &quot;first&quot; and ending at position &quot;last&quot;. */ int bestSoFar = y[first]; // line 1 for (int i=first+1; i&lt;=last; i++) { if ( y[i] &lt; y[bestSoFar] ) // line 2 bestSoFar = y[i]; // line 3 } // for return bestSoFar; // line 4 } // method minVal Which one of the four lines indicated by the comments contains the logic error?</p>
+          <qti-choice-interaction responseIdentifier="QUE_632766_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_632766_A1">
+              <p>line 1</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632766_A2">
+              <p>line2</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632766_A3">
+              <p>line3</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632766_A4">
+              <p>line4</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632766_A5">
+              <p></p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632766_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632766_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632766_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632766_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_632766_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_632766_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;line 2 should be if ( y[i] &lt; bestSoFar ) The other three lines use bestSoFar to remember the best VALUE seen thus far, whereas the buggy line is using bestSoFar as if bestSoFar contains the POSITION seen thus far.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+    </qti-assessment-section>
+  </qti-test-part>
+</qti-assessment-test>

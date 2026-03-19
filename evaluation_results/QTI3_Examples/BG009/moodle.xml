@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+                
+                           
+                                
+
+  <question type="essay">
+    <name>
+      <text>BG Postcard example</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+      <p>Read this postcard from your English pen-friend, Sam.</p>
+                                   
+                                 
+    <p><strong>Instructions:</strong>Write Sam a postcard. Answer the questions. Write 2330 words</p>
+                                   
+    <blockquote class="postcard">
+      <p>Here is a postcard of my town. Please send me
+     
+       a postcard from your town. What size is your Town?
+       What is the nicest part of your town?
+       Where do you go in the evenings?</p>
+      <p>Sam</p>
+    </blockquote>
+                                 
+    <p><strong>Instructions:</strong>Write Sam a postcard. Answer the questions. Write 2330 words</p>
+]]></text>
+  </questiontext>
+
+    <generalfeedback format="html">
+      <text><![CDATA[
+        Your answer will be reviewed by the teacher.
+      ]]></text>
+    </generalfeedback>
+
+    <defaultgrade>1</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>false</single>
+       
+       
+    <graderinfo format="html">
+      <text><![CDATA[
+        Essay questions must be graded manually. Encourage students to answer all the prompts.
+      ]]></text>
+    </graderinfo>
+
+  </question>
+</quiz>

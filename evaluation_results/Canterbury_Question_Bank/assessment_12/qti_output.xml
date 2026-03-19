@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qti-assessment-test xmlns="http://www.imsglobal.org/xsd/imsqti_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_v3p0.xsd" identifier="output" title="output">
+  <qti-test-part identifier="testPart-1" navigationMode="nonlinear" submissionMode="individual">
+    <qti-assessment-section identifier="section-1" title="Converted Items" visible="true">
+      <qti-assessment-item identifier="QUE_635006" title="635006" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_635006_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_635006_A3</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>public BallPanel extends javax.swing.JPanel {<br/>private Ball[] _balls;<br/>public BallPanel(int numberOfBalls){<br/>??????<br/>for (int i=0;i&lt;_balls.length;i++)<br/>_balls[i] = new Ball();<br/>}<br/>}<br/>We need to add something at line 4 above to avoid an error in line 5. Which of the following line 4 expressions fix the error in line 5?</p>
+          <qti-choice-interaction responseIdentifier="QUE_635006_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_635006_A1">
+              <p>super();</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_635006_A2">
+              <p>_balls.setLength(numberOfBalls);</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_635006_A3">
+              <p>_balls = new Ball[numberOfBalls];</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_635006_A4">
+              <p>_balls.length = numberOfBalls;</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_635006_A5">
+              <p>B, C, and D all work.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_635006_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_635006_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_635006_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_635006_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_635006_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_635006_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;The problem with line 5 (without adding line 4) is that _balls is declared, but not instantiated as an array, so _balls is null. The code compiles fine (assuming you have a class Ball that has a constructor with no parameters), but will crash at run time if you instantiate a BallPanel. B and D wouldn't help: B would crash at run time for the same reason as 5, and D gives a compile-time error since length is not directly settable for a Java array. A would work, but would have no effect on the problem.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_633279" title="633279" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_633279_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_633279_A2</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Which of the following makes an appropriate pre-condition for this code?<br/>double calculate_percentage(double sum, double n)<br/>{<br/>// calculates and returns a percentage given a sum and a length (n)<br/>// &lt;missing pre-condition&gt;<br/>// POST: none<br/>return (sum / n) * 100;<br/>}</p>
+          <qti-choice-interaction responseIdentifier="QUE_633279_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_633279_A1">
+              <p>PRE: sum &lt; 100</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633279_A2">
+              <p>PRE: n != 0</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633279_A3">
+              <p>PRE: sum != NULL and n != NULL</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633279_A4">
+              <p>PRE: none</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633279_A5">e.</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633279_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633279_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633279_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_633279_A9">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_633279_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;The code will faill if n = 0, as it will divide by 0.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_629623" title="629623" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_629623_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_629623_A1</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Consider writing a program to be used by a farm to keep track of information about the fruits and vegetables they sell. For each sale, they would like to keep track of the type of item (eggplant, tomato, etc.), the quantity sold, the price, and the market at which the sale was made. Which of the following is the best way to represent the information?</p>
+          <qti-choice-interaction responseIdentifier="QUE_629623_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_629623_A1">
+              <p>Define one class, FarmSale, with four fields: type, quantity, price, and market.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629623_A2">
+              <p>Define one superclass, FarmSale, with four subclasses: Type, Quantity, Price, and Market.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629623_A3">
+              <p>Define five unrelated classes: FarmSale, Type, Quantity, Price, and Market.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629623_A4">
+              <p>Define five classes: FarmSale, Type, Quantity, Price, and Market.. Make Market a subclass of Price, make Price a subclass of Quantity, make Quantity a subclass of Type, and make Type a subclass of FarmSale.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629623_A5">
+              <p>Define five classes: FarmSale, Type, Quantity, Price, and Market. Make FarmSale a subclass of Type, make Type a subclass of Quantity, make Quantity a subclass of Price, and make Price a subclass of Market.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629623_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629623_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629623_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629623_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_629623_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_629623_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;Which classes you define depends generally on the needs of the software. It might be good to have Market be a class of its own, with the address of the market, contact information for the organizers, etc. The item type might be modeled with a Product class, with information about the date it was planted, for example. But of the choices given, A is the best. We can rule out choices B, C, D, and E because price and quantity don't need data and associated methods of their own and are most appropriately modeled as fields in the FarmSale class. That leaves A.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+    </qti-assessment-section>
+  </qti-test-part>
+</qti-assessment-test>

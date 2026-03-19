@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qti-assessment-test xmlns="http://www.imsglobal.org/xsd/imsqti_v3p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v3p0 https://purl.imsglobal.org/spec/qti/v3p0/schema/xsd/imsqti_v3p0.xsd" identifier="output" title="output">
+  <qti-test-part identifier="testPart-1" navigationMode="nonlinear" submissionMode="individual">
+    <qti-assessment-section identifier="section-1" title="Converted Items" visible="true">
+      <qti-assessment-item identifier="QUE_2001" title="633243" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2002_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2003_A1</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>Locating a new node's insertion point in a binary search tree stops when</p>
+          <qti-choice-interaction responseIdentifier="QUE_2002_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_2003_A1">
+              <p>We reach a null child.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2004_A2">
+              <p>We find a node greater than the node to be inserted.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2005_A3">
+              <p>We reach the tree's maximum level.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2006_A4">
+              <p>We find a node lesser than the node to be inserted.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2007_A5">
+              <p>We find a node without any children.</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2008_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2009_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2010_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2011_A9">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2012_A10">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2013_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;Finding nodes less than or greater than the new node happens frequently as we traverse the tree. Tree's don't have maximum levels. The insertion point isn't necessarily a leaf node. The remaining option of stopping when we reach null is the correct answer because we have found the new node's parent node.&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_2014" title="634173" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2015_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2017_A3</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>What are hash functions not used for? (Or at least, should not be used for.)</p>
+          <qti-choice-interaction responseIdentifier="QUE_2015_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_2016_A1">
+              <p>Storing values in hash tables</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2018_A2">
+              <p>Checking file integrity</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2017_A3">
+              <p>Encrypting passwords</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2019_A4">
+              <p>Digital signatures on files</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2020_A5"/>
+            <qti-simple-choice identifier="QUE_2021_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2022_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2023_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2024_A9">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2025_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;Hash functions should be used to store passwords, but not to encrypt them!&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+      <qti-assessment-item identifier="QUE_2026" title="617508" adaptive="false" timeDependent="false">
+        <qti-response-declaration identifier="QUE_2027_RL" cardinality="single" baseType="identifier">
+          <qti-correct-response>
+            <qti-value>QUE_2028_A1</qti-value>
+          </qti-correct-response>
+        </qti-response-declaration>
+        <qti-outcome-declaration identifier="que_score" cardinality="single" baseType="float">
+          <qti-default-value>
+            <qti-value>0</qti-value>
+          </qti-default-value>
+        </qti-outcome-declaration>
+        <qti-item-body>
+          <p>How many objects are created in the following declaration? String name;</p>
+          <qti-choice-interaction responseIdentifier="QUE_2027_RL" maxChoices="1" minChoices="1">
+            <qti-simple-choice identifier="QUE_2028_A1">
+              <p>0</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2029_A2">
+              <p>1</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2030_A3">
+              <p>This declaration causes a run-time error</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2031_A4">
+              <p>It is not legal to write this declaration in Java</p>
+            </qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2032_A5"/>
+            <qti-simple-choice identifier="QUE_2033_A6">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2034_A7">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2035_A8">"</qti-simple-choice>
+            <qti-simple-choice identifier="QUE_2036_A9">"</qti-simple-choice>
+          </qti-choice-interaction>
+        </qti-item-body>
+        <qti-modal-feedback identifier="QUE_2037_ALL" outcomeIdentifier="FEEDBACK" showHide="show">
+          <p>&lt;p&gt;It is not legal to write this declaration in Java&lt;/p&gt;</p>
+        </qti-modal-feedback>
+      </qti-assessment-item>
+    </qti-assessment-section>
+  </qti-test-part>
+</qti-assessment-test>

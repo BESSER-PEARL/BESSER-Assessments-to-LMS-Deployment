@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+
+
+
+
+
+  <question type="multichoice">
+    <name>
+      <text>Heap Last Child Position</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[For a heap of size n, which is indexed at 0, at what position will its last child be?]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[The last element will be at the end of the array.]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[2n + 1]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is n - 1
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[n / 2]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is n - 1
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[n - 1]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[floor(n / 2) + 1]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is n - 1
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+
+
+
+
+
+  <question type="multichoice">
+    <name>
+      <text>Recursive Function Base Case</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[If you did not have a base case in a recursive function in C, and were working on a modern Unix-based system, what would most likely happen?
+
+
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[It really depends on the program for whether it would be B or C. Both can be argued to be correct.]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[Segmentation fault]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is C wouldn't complain, but your computer would crash
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Stack overflow error]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is C wouldn't complain, but your computer would crash
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[C wouldn't complain, but your computer would crash]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Nothing, that's fine]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is C wouldn't complain, but your computer would crash
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+
+
+
+
+
+  <question type="multichoice">
+    <name>
+      <text>Quicksort Design Strategy</text>
+    </name>
+
+    <questiontext format="html">
+      <text><![CDATA[What design strategy does Quicksort use?]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Quicksort is divide and conquer.]]></text>
+    </generalfeedback>
+
+    <defaultgrade>0</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+
+    <answer fraction="0">
+      <text><![CDATA[Greedy]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Divide and conquer
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="100">
+      <text><![CDATA[Divide and conquer]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Dynamic programming]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Divide and conquer
+           ]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Brute force]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Divide and conquer
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+</quiz>

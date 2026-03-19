@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+
+
+
+  <question type="shortanswer">
+    <name>
+      <text>BG Missing Word example</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+      <p>Identify the missing word in this famous quote from Shakespeare's Richard III.</p>
+
+
+
+    <blockquote class="postcard">
+      <p>Now is the winter of our discontent
+
+      Made glorious summer by this sun of</p>
+      <p>TextEntryInteraction(ResponseIdentifier=RESPONSE)</p>
+      <p>And all the clouds that lour'd upon our house
+      In the deep bosom of the ocean buried.</p>
+    </blockquote>
+
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[The correct answer is .]]></text>
+    </generalfeedback>
+
+    <defaultgrade>1</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+
+     <usecase>1</usecase>
+
+
+
+   <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[york]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct, but not the full expected answer.
+        ]]></text>
+      </feedback>
+    </answer>
+
+
+   <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[York]]></text>
+      <feedback format="html">
+        <text><![CDATA[Perfect!
+        ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+</quiz>

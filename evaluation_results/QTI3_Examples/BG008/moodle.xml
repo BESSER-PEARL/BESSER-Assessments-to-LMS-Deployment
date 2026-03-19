@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+                
+                           
+                                    
+                            
+
+  <question type="multichoice">
+    <name>
+      <text>BG Choice example</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <p>QTI 3 is a new version released in 2022.</p>
+        <p>Pick 3 choices.</p>
+        <p>Which of the following features are new to QTI 3?</p>
+                                   
+                                 
+]]></text>
+  </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[
+           Correct Answers: Shared Vocabulary, Catalogs for candidate-specific content., Conformance features definitions
+           ]]></text>
+    </generalfeedback>
+
+    <defaultgrade>1</defaultgrade>
+
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>false</single>
+       
+
+
+    <answer fraction="33.333333333333336">
+      <text><![CDATA[Shared Vocabulary]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[Pineapple Flavored]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Shared Vocabulary, Catalogs for candidate-specific content., Conformance features definitions
+           ]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="33.333333333333336">
+      <text><![CDATA[Catalogs for candidate-specific content.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+
+
+    <answer fraction="33.333333333333336">
+      <text><![CDATA[Conformance features definitions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[A subset of HTML5 elements]]></text>
+      <feedback format="html">
+        <text><![CDATA[
+           Incorrect. The correct answer is Shared Vocabulary, Catalogs for candidate-specific content., Conformance features definitions
+           ]]></text>
+      </feedback>
+    </answer>
+
+  </question>
+</quiz>
