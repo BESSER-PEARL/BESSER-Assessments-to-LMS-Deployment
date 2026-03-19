@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <!-- Category to group the question -->
+  <question type="category">
+    <category>
+      <text>$course$/QTI Section A</text>
+    </category>
+  </question>
+{%- for assessment_part in assessment_def.parts %}
+  {%- for assessment_section in assessment_part.sections %}
+  {%- set ns = namespace(question_type='') %}
+    {%- for question in assessment_section.questions %}
+
+{# --- Determine question type --- #}
+{%- if question.responses %}
+  {%- for response in question.responses %}
+    {%- if response.base_type == 'string' and response.cardinality == 'single' -%}
+      {%- if response.correct_answers %}
+        {%- set ns.question_type = 'shortanswer' %}
+      {%- else %}
+        {%- set ns.question_type = 'essay' %}
+      {%- endif %}
+    {%- endif %}
+  {%- endfor %}
+{%- endif %}
+{%- if question.body and question.body.choices and ns.question_type not in ['essay', 'shortanswer'] %}
+  {%- set ids = question.body.choices | map(attribute='identifier') | list %}
+  {%- if ids == ['true', 'false'] or ids == ['false', 'true'] %}
+    {%- set ns.question_type = 'truefalse' %}
+  {%- endif %}
+  {%- if ns.question_type != 'truefalse' %}
+    {%- set ns.question_type = 'multichoice' %}
+  {%- endif %}
+{%- endif %}
+
+{# --- Render question --- #}
+   <question type="{{ns.question_type}}">
+    <name>
+      <text>{{question.title}}</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+{%- if question.body %}
+  {%- for para in question.body.paragraphs %}
+    {%- if para.text %}<p>{{para.text}}</p>{% endif %}
+    {%- if para.inline_elements %}
+      {%- for elem in para.inline_elements %}
+        {%- if elem is string %}{{elem}}{% endif %}
+      {%- endfor %}
+    {%- endif %}
+    {%- if para.quote_blocks %}
+      <blockquote class="postcard">
+        {%- for quote in para.quote_blocks %}
+          {%- for p in quote.paragraphs %}
+            {%- if p.text %}
+              <p>{{p.text}}</p>
+            {%- endif %}
+            {%- if p.inline_elements %}
+              {%- for elem in p.inline_elements %}
+                {%- if elem is string %}
+                  {{elem}}
+                {%- else %}
+                  <p>TextEntryInteraction(ResponseIdentifier={{elem.response_identifier}})</p>
+                {%- endif %}
+              {%- endfor %}
+            {%- endif %}
+          {%- endfor %}
+        {%- endfor %}
+      </blockquote>
+    {%- endif %}
+  {%- endfor %}
+  {%- if question.body.prompts %}
+  {%- for prompt in question.body.prompts %}
+    {%- if prompt.text %}
+      <p><strong>Instructions:</strong>{{prompt.text}}</p>
+    {%- endif %}
+    {%- for para in prompt.paragraph_blocks %}
+      <p>{{para.text}}</p>
+    {%- endfor %}
+  {%- endfor %}
+  {%- endif %}
+{%- endif %}
+]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[
+{%- if ns.question_type == 'multichoice' %}
+  {%- set correct_texts = [] %}
+  {%- for response in question.responses %}
+    {%- for choice in response.correct_choices %}
+      {%- set correct_texts = correct_texts + [choice.text] %}
+    {%- endfor %}
+  {%- endfor %}
+  {%- set correct_list = correct_texts | join(', ') %}
+Correct Answers: {{correct_list}}
+{%- else %}
+{%- if question.feedbacks %}
+  {%- for feedback in question.feedbacks %}
+    {%- for para in feedback.paragraphs %}
+      <p>{{para.text}}</p>
+    {%- endfor %}
+  {%- endfor %}
+{%- else %}
+Your answer will be reviewed by the teacher.
+{%- endif %}
+{%- endif %}
+]]></text>
+    </generalfeedback>
+{%- if ns.question_type == 'shortanswer' %}
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <usecase>1</usecase>
+
+  {%- for response in question.responses %}
+    {%- for answer in response.correct_answers %}
+
+   <answer fraction="{% if answer.score == '1' %}100{% else %}0{% endif %}" format="moodle_auto_format">
+      {%- if ns.question_type == 'truefalse' %}
+      <text>{{answer.text}}</text>
+      {%-else%}
+      <text><![CDATA[{{answer.text}}]]></text>
+      {%- endif %}
+      <feedback format="html">
+        <text><![CDATA[{% if answer.score == '1' %}Perfect!{% else %}Correct, but not the full expected answer.{% endif %}]]></text>
+      </feedback>
+    </answer>
+    {%- endfor %}
+  {%- endfor %}
+{%- elif ns.question_type == 'essay' %}
+
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <responsefieldlines>15</responsefieldlines>
+    <attachments>0</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+
+    <graderinfo format="html">
+      <text><![CDATA[Essay questions must be graded manually. Encourage students to answer all the prompts.]]></text>
+    </graderinfo>
+{%- else %}
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    {%- set is_single = true %}
+    {%- if question.body.max_choices and question.body.max_choices | int > 1 %}
+      {%- set is_single = false %}
+    {%- endif %}
+    {%- if ns.question_type != 'truefalse' %}
+    <single>{{is_single | lower}}</single>
+    {%- endif %}
+{%- if question.body and question.body.choices %}
+  {%- set correct_ids = [] %}
+  {%- for response in question.responses %}
+    {%- for choice in response.correct_choices %}
+      {%- set _ = correct_ids.append(choice.identifier) %}
+    {%- endfor %}
+  {%- endfor %}
+  {%- set num_correct = correct_ids | length %}
+  {%- for choice in question.body.choices | sort(attribute='identifier') %}
+    {%- set frac = 100 / num_correct %}
+
+    <answer fraction="{% if choice.identifier in correct_ids %}{{ frac if frac % 1 else frac | int }}{% else %}0{% endif %}">
+      {%- if ns.question_type == 'truefalse' %}
+      <text>{{choice.text | lower}}</text>
+      {%-else%}
+      <text><![CDATA[{{choice.text}}]]></text>
+      {%- endif %}
+      <feedback format="html">
+        <text><![CDATA[
+{%- if choice.identifier in correct_ids %}
+Correct!
+{%- else %}
+Incorrect. The correct answer is {{ question.body.choices | selectattr('identifier', 'in', correct_ids) | map(attribute='text') | join(', ') }}
+{%- endif %}
+]]></text>
+      </feedback>
+    </answer>
+  {%- endfor %}
+{%- endif %}
+{%- endif %}
+  </question>
+    {%- endfor %}
+  {%- endfor %}
+{%- endfor %}
+</quiz>
